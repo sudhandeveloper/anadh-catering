@@ -102,7 +102,6 @@ const NavOne = () => {
                   <div className="absolute z-20 max-md:static w-80 servicedropdownitem top-5">
                     <div className="py-3 pl-2 pr-2 mt-8 bg-white rounded-md max-md:mt-2 innerserviceitem ">
                       <ul>
-
                         <li className="pb-2 he border-b-[1px] border-b-gray-100">
                           <Link to={"Home-interiories"}> Home Interiors </Link>
                         </li>
@@ -131,7 +130,6 @@ const NavOne = () => {
                 <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
                   <Link to="Contact-us">Contact</Link>
                 </li>
-                
               </ul>
             </div>
           </div>
