@@ -20,7 +20,7 @@ const NavOne = () => {
   return (
     <>
       <section>
-        <div className=" h-auto text-white bg-black shadow-lg ">
+        <div className=" h-auto text-white bg-black ">
           <div className="w-[100%] flex justify-end  h-auto ">
             <div className="w-[20%] max-md:w-full bg- max-sm:px-10">
               <ul className="flex w-full max-md:pb-3 cursor-pointer pt-3 gap-5  justify-center max-md:justify-start">
@@ -57,7 +57,7 @@ const NavOne = () => {
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="mt-[10px] max-sm:hidden">
-                  <button className=" px-5 pt-2 pb-1 rounded-md uppercase font-serif text-white bg-green-500  ">
+                  <button className=" px-5 pt-2 pb-1 rounded-md uppercase font-serif text-white bg-green-600  ">
                     <span>Contact us</span>
                   </button>
                 </li>
@@ -67,7 +67,7 @@ const NavOne = () => {
         </div>
 
         {/* ------- */}
-        <div className=" h-[65px] max-md:h-auto    shadow-lg ">
+        <div className=" h-[70px] max-md:h-auto    shadow-lg ">
           <div className="w-full md:pt-3 md:hidden">
             <div
               className=" right-10 absolute top-4 text-right text-[25px] text-white"
@@ -82,13 +82,13 @@ const NavOne = () => {
               drawer ? "max-md:hidden" : "show helo"
             }`}
           >
-            {/* <div className="w-auto h-auto pt-1 pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
+            <div className="w-auto h-auto  pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
               <img
                 className="object-contain h-[70px] "
                 src={AnanthamLogo}
                 alt="loading"
               />
-            </div> */}
+            </div>
             <div className="w-full h-full ">
               <ul className="md:pt-5 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
                 <li className="he one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
