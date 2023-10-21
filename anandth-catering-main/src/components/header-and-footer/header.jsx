@@ -15,7 +15,7 @@ const NavOne = () => {
   return (
     <>
       <section>
-        <div className="flex h-auto text-white bg-green-600 shadow-lg ">
+        <div className="flex h-auto text-white bg-black shadow-lg ">
           <div className="w-[100%]  justify-end  h-auto ">
             <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex ">
               <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
@@ -31,7 +31,7 @@ const NavOne = () => {
                 <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
               </li>
               <li className="mt-[10px] max-sm:hidden">
-                <button className="px-3 py-1 font-serif text-white bg-green-500 rounded-sm  ">
+                <button className="px-3 py-1 font-serif text-white bg-green-500  ">
                   <span>Contact us</span>
                 </button>
               </li>
