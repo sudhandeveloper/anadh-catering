@@ -22,8 +22,8 @@ const NavOne = () => {
       <section>
         <div className=" h-auto text-white bg-black shadow-lg ">
           <div className="w-[100%] flex justify-end  h-auto ">
-            <div className="w-[20%] bg- max-sm:px-10">
-              <ul className="flex w-full cursor-pointer pt-3 gap-5  justify-center max-sm:justify-between">
+            <div className="w-[20%] max-md:w-full bg- max-sm:px-10">
+              <ul className="flex w-full max-md:pb-3 cursor-pointer pt-3 gap-5  justify-center max-md:justify-start">
                 <li className="w-8 h-8 pt-[5px]  rounded-full">
                   <center>
                     <BiLogoFacebook className="text-[25px] text-white" />
@@ -67,10 +67,10 @@ const NavOne = () => {
         </div>
 
         {/* ------- */}
-        <div className=" h-[65px] max-md:h-auto  max-md:pb-2  text-red-500 shadow-lg ">
-          <div className="w-full pt-3 md:hidden pl-[88%]">
+        <div className=" h-[65px] max-md:h-auto    shadow-lg ">
+          <div className="w-full md:pt-3 md:hidden">
             <div
-              className="w-[100%] text-right text-[25px] text-black"
+              className=" right-10 absolute top-4 text-right text-[25px] text-white"
               onClick={clickerhandler}
             >
               {drawer ? <FaBars /> : <AiOutlineClose />}
@@ -90,7 +90,7 @@ const NavOne = () => {
               />
             </div> */}
             <div className="w-full h-full ">
-              <ul className="md:pt-5  max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
+              <ul className="md:pt-5 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
                 <li className="he one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"/"}>Home</Link>
                 </li>
@@ -102,14 +102,17 @@ const NavOne = () => {
                   <div className="absolute z-20 max-md:static w-80 servicedropdownitem top-5">
                     <div className="py-3 pl-2 pr-2 mt-8 bg-white rounded-md max-md:mt-2 innerserviceitem ">
                       <ul>
+
                         <li className="pb-2 he border-b-[1px] border-b-gray-100">
                           <Link to={"Home-interiories"}> Home Interiors </Link>
                         </li>
+
                         <li className="pb-2 he pt-2 border-b-[1px] border-b-gray-100">
                           <Link to={"Commercial-interior"}>
                             Commercisal Interios{" "}
                           </Link>
                         </li>
+
                         <li className="pt-2 he border-b-[1px] border-b-gray-100">
                           <Link to={"Corporate-interior"}>
                             Corporate Office Intereriors{" "}
@@ -120,14 +123,15 @@ const NavOne = () => {
                   </div>
                 </li>
                 <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <Link to={"Gallary"}>Gallery </Link>
+                  <Link to={"Gallary"}>Menu </Link>
                 </li>
                 <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <Link to="Contact-us">Contact</Link>
+                  <Link to={"Gallary"}>Fixed Menu </Link>
                 </li>
                 <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
-                  <Link to={"Blog"}>Blog </Link>
+                  <Link to="Contact-us">Contact</Link>
                 </li>
+                
               </ul>
             </div>
           </div>
