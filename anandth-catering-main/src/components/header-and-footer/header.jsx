@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 
-
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
+
+import { BiLogoFacebook } from "react-icons/bi";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+
+import AnanthamLogo from "../../assets/images/home-images/anandham-Logo.jpg";
 const NavOne = () => {
   const [drawer, setDrawer] = useState("false");
 
@@ -15,32 +20,54 @@ const NavOne = () => {
   return (
     <>
       <section>
-        <div className="flex h-auto text-white bg-black shadow-lg ">
-          <div className="w-[100%]  justify-end  h-auto ">
-            <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex ">
-              <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
-                +91 7558 999 111
-              </li>
-              <li className="pt-5">
-                <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
-              </li>
-              <li className="pt-4 tracking-wider max-sm:text-center max-sm:w-[100%] max-sm:pb-3 ">
-                marketing@d2rinteriors.com
-              </li>
-              <li className="pt-5">
-                <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
-              </li>
-              <li className="mt-[10px] max-sm:hidden">
-                <button className="px-3 py-1 font-serif text-white bg-green-500  ">
-                  <span>Contact us</span>
-                </button>
-              </li>
-            </ul>
+        <div className=" h-auto text-white bg-black shadow-lg ">
+          <div className="w-[100%] flex justify-end  h-auto ">
+            <div className="w-[20%] bg- max-sm:px-10">
+              <ul className="flex w-full cursor-pointer pt-3 gap-5  justify-center max-sm:justify-between">
+                <li className="w-8 h-8 pt-[5px]  rounded-full">
+                  <center>
+                    <BiLogoFacebook className="text-[25px] text-white" />
+                  </center>
+                </li>
+                <li className="w-8 h-8 pt-[5px]  text-white rounded-full">
+                  <center>
+                    <AiOutlineTwitter className="text-[25px]" />
+                  </center>
+                </li>
+                <li className="w-8 h-8 pt-[5px]  text-white rounded-full">
+                  <center>
+                    <AiOutlineInstagram className="text-[25px] " />
+                  </center>
+                </li>
+              </ul>
+            </div>
+
+            <div className="w-[80%] max-md:hidden">
+              <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex ">
+                <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
+                  +91 7558 999 111
+                </li>
+                <li className="pt-5">
+                  <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
+                </li>
+                <li className="pt-4 tracking-wider max-sm:text-center max-sm:w-[100%] max-sm:pb-3 ">
+                  marketing@d2rinteriors.com
+                </li>
+                <li className="pt-5">
+                  <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
+                </li>
+                <li className="mt-[10px] max-sm:hidden">
+                  <button className=" px-5 pt-2 pb-1 rounded-md uppercase font-serif text-white bg-green-500  ">
+                    <span>Contact us</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
         {/* ------- */}
-        <div className=" h-[70px] max-md:h-auto  max-md:pb-2  text-red-500 shadow-lg ">
+        <div className=" h-[65px] max-md:h-auto  max-md:pb-2  text-red-500 shadow-lg ">
           <div className="w-full pt-3 md:hidden pl-[88%]">
             <div
               className="w-[100%] text-right text-[25px] text-black"
@@ -55,15 +82,15 @@ const NavOne = () => {
               drawer ? "max-md:hidden" : "show helo"
             }`}
           >
-            <div className="w-auto h-auto pt-1 pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
+            {/* <div className="w-auto h-auto pt-1 pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
               <img
-                className="object-contain h-[60px] "
-                src={"LogoMain"}
+                className="object-contain h-[70px] "
+                src={AnanthamLogo}
                 alt="loading"
               />
-            </div>
+            </div> */}
             <div className="w-full h-full ">
-              <ul className="md:pt-6  max-md:flex-col  max-md:pb-5 justify-end pr-36 max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
+              <ul className="md:pt-5  max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
                 <li className="he one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"/"}>Home</Link>
                 </li>
