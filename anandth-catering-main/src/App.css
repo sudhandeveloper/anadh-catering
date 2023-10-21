@@ -1,0 +1,15 @@
+.one {
+  color: rgb(0, 166, 0);
+}
+.head-ul .he:hover {
+  color: rgb(0, 166, 0);
+}
+/* ======================= */
+.servicesmenu:hover .servicedropdownitem {
+  display: block;
+  transition: all 50s ease-in-out;
+}
+.servicedropdownitem {
+  display: none;
+  transition: all 50s ease-in-out;
+}
