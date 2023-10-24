@@ -3,6 +3,12 @@ export const content = [
   "./src/**/*.{js,jsx,ts,tsx}",
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    fontFamily: {
+      Montserrat:["'Montserrat', sans-serif"],
+      MontserratMedium:["'Montserrat', sans-serif"],
+      Heeb:["'Heebo', sans-serif"] 
+    },
+  },
 };
 export const plugins = [];
