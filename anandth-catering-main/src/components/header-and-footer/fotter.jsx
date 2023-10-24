@@ -3,7 +3,7 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 
-import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.jpg";
+import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png";
 import { FaLocationDot } from "react-icons/fa6";
 // import Footerbg from "../../assets/images/home/footerbg.webp";
 // bg-[#00677f]
