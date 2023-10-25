@@ -7,6 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 import AnanthamLogo from "../../assets/images/home-images/anandham-Logo.jpg";
 const NavOne = () => {
@@ -90,23 +91,30 @@ const NavOne = () => {
               />
             </div>
             <div className="w-full h-full ">
-              <ul className="md:pt-5 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-5 text-[16px] text-black uppercase font-serif tracking-wide ">
-                <li className="he one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+              <ul className="md:pt-6 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-3 text-[16px] text-black uppercase font-serif tracking-wide ">
+                <li className="he header-line one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"/"}>Home</Link>
                 </li>
-                <li className="max-md:pt-3 he max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+                <li className="max-md:pt-3 header-line he max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to="about-us"> About Us</Link>
                 </li>
-                <li className="relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <span className="he">Services </span>
+                <li className="header-line relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+                  <div className="flex ">
+                    {" "}
+                    <span className="he">Services </span>
+                    <h2>
+                      <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
+                    </h2>
+                  </div>
+
                   <div className="absolute z-20 max-md:static w-80 servicedropdownitem top-5">
                     <div className="py-3 pl-2 pr-2 mt-8 bg-white shadow-xl rounded-md max-md:mt-2 innerserviceitem ">
                       <ul>
-                        <li className="pb-2 he border-b-[1px] border-b-gray-100">
+                        <li className="pb-2 header-line he border-b-[1px] border-b-gray-100">
                           <Link to={"Home-interiories"}> Home Interiors </Link>
                         </li>
 
-                        <li className="pb-2 he pt-2 border-b-[1px] border-b-gray-100">
+                        <li className="pb-2 header-line he pt-2 border-b-[1px] border-b-gray-100">
                           <Link to={"Commercial-interior"}>
                             Commercisal Interios{" "}
                           </Link>
@@ -121,13 +129,13 @@ const NavOne = () => {
                     </div>
                   </div>
                 </li>
-                <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+                <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"Gallary"}>Menu </Link>
                 </li>
-                <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+                <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"Gallary"}>Fixed Menu </Link>
                 </li>
-                <li className="he max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
+                <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
                   <Link to="Contact-us">Contact</Link>
                 </li>
               </ul>

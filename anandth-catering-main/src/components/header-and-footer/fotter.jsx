@@ -12,16 +12,17 @@ const Footer = () => {
   return (
     <>
       <section>
-        <footer className="px-4 divide-y  ">
+        <footer className="px-4 divide-y  text-white footer-banner ">
+
           <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
               <span className="self-center text-2xl font-semibold">
-                <span className="text-green-600 font-Heeb">ANANDTHAM </span>{" "}
+                <span className="text-green-600 font-Heeb">ANANDTHAM </span>
                 CATERING SERVICES
               </span>
               <div className="w-[85%] h-[3px] bg-green-500 "></div>
               <div>
-                <p className="text-black pr-8 font-Heeb w-[100%] text-justify mt-5 ">
+                <p className="text-white  pr-8 font-Heeb w-[100%] text-justify mt-5 ">
                   A legacy of vegetarian food catering services that brings to
                   you traditional and modern cuisines,under the rich expertise
                   of master cooks, to make your every event memorable. We cater
@@ -32,34 +33,34 @@ const Footer = () => {
             <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
               <div className="space-y-3    ">
                 <div>
-                  <h2 className="text-[23px] font-Montserrat  text-black">
+                  <h2 className="text-[23px] font-Montserrat  text-white ">
                     QUICK LINK
                   </h2>
 
-                  <ul className=" pt-7 font-medium pb-2 text-[15px] text-black font-Heeb">
-                    <li className="flex pb-2">
+                  <ul className=" pt-7 font-medium pb-2 text-[15px] text-white  font-Heeb">
+                    <li className="flex pb-2 ">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className=""> HOME</span>
+                      <span className="header-line"> HOME</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span> ABOUT </span>
+                      <span className="header-line"> ABOUT </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>SERVICES </span>
+                      <span className="header-line">SERVICES </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>MENU</span>
+                      <span className="header-line">MENU</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>FIXED MENU</span>
+                      <span className="header-line">FIXED MENU</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>CONTACT</span>
+                      <span className="header-line">CONTACT</span>
                     </li>
                     {/* <li className="flex ">
            <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
@@ -71,34 +72,34 @@ const Footer = () => {
 
               <div className="space-y-3">
                 <div>
-                  <h2 className="text-[23px] uppercase font-MontserratMedium  text-black">
+                  <h2 className="text-[23px] uppercase font-MontserratMedium  text-white ">
                     Services
                   </h2>
 
-                  <ul className="mt-2 text-[16px] pt-5 font-medium pb-2 text-black font-Heeb">
+                  <ul className="mt-2 text-[16px] pt-5 font-medium pb-2 text-white  font-Heeb">
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className=""> Wedding Catering</span>
+                      <span className="header-line"> Wedding Catering</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span> Wedding Catering </span>
+                      <span className="header-line"> Wedding Catering </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>Mass Gathering </span>
+                      <span className="header-line">Mass Gathering </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>Food Fiesta</span>
+                      <span className="header-line">Food Fiesta</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>Barbeque Banquet</span>
+                      <span className="header-line">Barbeque Banquet</span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span>Palate to Plate</span>
+                      <span className="header-line">Palate to Plate</span>
                     </li>
                   </ul>
                 </div>
@@ -106,11 +107,11 @@ const Footer = () => {
 
               <div className="space-y-3">
                 <div>
-                  <h2 className="text-[23px]  font-MontserratMedium uppercase  text-black">
+                  <h2 className="text-[23px]  font-MontserratMedium uppercase  text-white ">
                     Contact Us
                   </h2>
 
-                  <ul className="pt-6 text-[16px] font-medium text-black font-Heeb">
+                  <ul className="pt-6 text-[16px] font-medium text-white  font-Heeb">
                     <li className="flex pb-2">
                       <BsFillTelephoneForwardFill className="mt-1 mr-4 text-green-700" />
                       <span className=""> +91 98418 33554</span>
@@ -130,7 +131,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="space-y-3 pl-3">
-                <div className="text-[23px]  font-MontserratMedium uppercase  text-black">
+                <div className="text-[23px]  font-MontserratMedium uppercase  text-white ">
                   Social media
                 </div>
                 <div className="flex justify-start pt-3  space-x-3">
@@ -155,7 +156,7 @@ const Footer = () => {
                     </svg>{" "}
                   </div>
                   <div>
-                    {" "}
+                   
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 32 32"
@@ -211,13 +212,13 @@ export default Footer;
 
                   <div className="w-[120%]  mt-5">
                     <div className="">
-                      <h2 className="text-[23px]  font-MontserratMedium text-black">
+                      <h2 className="text-[23px]  font-MontserratMedium text-white ">
                         <span className="text-green-500">ANANDHAM </span>{" "}
                         CATERING
                       </h2>
                       <div className="w-full bg-green-500 h-[1px] mt-2"></div>
 
-                      {/* <ul className="mt-2 font-medium text-black font-Barlow">
+                      {/* <ul className="mt-2 font-medium text-white  font-Barlow">
          <li className="flex ">
            <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
            <span className="">About us </span>
@@ -250,7 +251,7 @@ export default Footer;
     </div>
     <div className="h-full w-full bg-black opacity-30 absolute top-0"></div>
   </div>
-  <div className="flex max-md:flex-col justify-between font-Heeb tracking-wider px-10 py-2 text-black bg-green-600 ">
+  <div className="flex max-md:flex-col justify-between font-Heeb tracking-wider px-10 py-2 text-white  bg-green-600 ">
     <p>Design and Developed by Honey Iconics</p>
     <p className="text-end">
       Copyright © Anandtham Catering All rights reserved

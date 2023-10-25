@@ -7,7 +7,8 @@ export const theme = {
     fontFamily: {
       Montserrat:["'Montserrat', sans-serif"],
       MontserratMedium:["'Montserrat', sans-serif"],
-      Heeb:["'Heebo', sans-serif"] 
+      Heeb:["'Heebo', sans-serif"],
+      GreatVibes:["'Great Vibes', cursive"] 
     },
   },
 };

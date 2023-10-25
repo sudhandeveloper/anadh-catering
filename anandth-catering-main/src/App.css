@@ -4,7 +4,7 @@
 .head-ul .he:hover {
   color: rgb(0, 166, 0);
 }
-/* ======================= */
+/* ======================= header styling ========================*/
 .servicesmenu:hover .servicedropdownitem {
   display: block;
   transition: all 50s ease-in-out;
@@ -12,4 +12,58 @@
 .servicedropdownitem {
   display: none;
   transition: all 50s ease-in-out;
+}
+.footer-banner {
+  background-image: url("./assets/images/home-images/footer-banner.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: bottom;
+}
+.header-line {
+  background: linear-gradient(to right, #1cd400 0%, #363636 100%);
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  transition-duration: 1s;
+  background-size: 0 6%;
+  &:hover {
+    background-size: 100% 6%;
+  }
+}
+/* ==================================== Home banner Image ======================== */
+.banner-image {
+  background-image: url("./assets//images/home-images/banner-image.jpg");
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+
+.styled legend {
+  color: rgb(255, 187, 0);
+  margin-left: 35%;
+  font-size: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Great Vibes", cursive;
+}
+
+.styled fieldset {
+  border: 2px solid rgb(197, 196, 196);
+  height: auto;
+  width: 95%;
+}
+@media (max-width: 575.98px) {
+  .styled legend {
+    color: rgb(255, 187, 0);
+    text-align: center;
+    margin-left: 0;
+    font-size: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Great Vibes", cursive;
+  }
+  .styled fieldset {
+    border: none;
+    width: 100%;
+  }
 }
