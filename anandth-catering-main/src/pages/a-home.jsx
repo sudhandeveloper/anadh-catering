@@ -1,10 +1,10 @@
 import React from "react";
-import BannerImage from "../assets/images/home-images/banner-image.jpg";
+import BannerImage from "../assets/images/home-images/aboutus-image.png";
 const Home = () => {
   return (
     <>
       <section>
-        <div className="w-full relative h-[50%] banner-image mb-10">
+        <div className="w-full relative h-[50%] banner-image ">
           <div className="absolute top-0 -z-0 bg-black opacity-40 w-full h-full"></div>
           <div className="absolute top-0 w-full h-full pt-28">
             <center>
@@ -12,13 +12,14 @@ const Home = () => {
                 <fieldset>
                   <legend className="">Creating</legend>
                   <div>
-                    <h2 className="text-white text-[50px] font-bold">DELICIOUS MEMORIES</h2>
+                    <h2 className="text-white text-[50px] font-bold">
+                      DELICIOUS MEMORIES
+                    </h2>
                     <p className="text-white text-[18px] pb-16">
                       Cater-Inc strives to produce innovative culinary art,
                       creating memorable experiences through inspired cuisine
                       and impeccable service.
                     </p>
-                    
                   </div>
                 </fieldset>
               </div>
@@ -27,56 +28,44 @@ const Home = () => {
         </div>
       </section>
 
-  {/* ================== MEET KERALA'S BEST INTERIOR DESIGNERS ================ */}
-
-  <section>
-          <div className="pt-10 pb-1 bg-gray-200">
-            <div className="">
-              <h1 className="text-center max-md:text-[50px] text-gray-500 font-bold uppercase text-[45px] font-cormantThiner ">
-                About <span className="text-red-600"> Inddecore Interio </span>
-              </h1>
-              <center>
-                <div className="h-1 bg-red-600 rounded-full w-96 max-md:hidden"></div>
-              </center>
-            </div>
-            <div className="flex w-full h-auto px-20 mt-20 mb-20 max-md:px-6 max-lg:flex-col ">
-              <div className="w-[50%] max-lg:w-full h-[500px] Baner-black-white">
-                <img
-                  className="object-cover w-full h-full"
-                  src={ImageThree}
-                  alt="loading"
-                />
-              </div>
-
-              <div className="w-[50%] max-lg:w-full  h-auto ">
-                <div className="h-[30%] text-center pt-5">
-                  <h1 className="text-center text-gray-500 font-bold uppercase text-[45px] font-cormantThiner ">
-                    <span className="text-red-600"> Inddecore </span>Interio
-                  </h1>
-                </div>
-
-                <div className="w-full h-[70%] px-16 py-16 max-sm:px-6 bg-white ">
-                  <h2 className="uppercase tracking-widest text-[22px] text-gray-500">
-                    MEET KERALA'S BEST
-                  </h2>
-                  <p className="text-[32px] tracking-wider font-medium text-red-600">
-                    INTERIOR DESIGNERS
-                  </p>
-                  <p className="text-justify font-extrabold text-[16px] text-gray-800  font-cormantThiner">
-                    stablished in the year 2018, THOMAR is a highly reputed
-                    interior brand. It is supported by a powerful team of
-                    architects, interior designers and supervisors etc. This
-                    widely acclaimed brand, which offers turnkey interior
-                    solutions, is known for its exceptional research and
-                    development wing. It handles both residential and commercial
-                    projects. It maintains international standards in design,
-                    material, as well as execution..
-                  </p>
-                </div>
-              </div>
-            </div>
+      {/* ================== MEET KERALA'S BEST INTERIOR DESIGNERS ================ */}
+      <section>
+        <div className="flex max-lg:flex-wrap">
+          <div className="w-[50%] max-lg:w-full h-auto">
+            <h2 className="font-GreatVibes text-[60px] text-[#c69204] text-center mt-10">
+              Cater-Inc
+            </h2>
+            <p className="text-center px-10 font-serif text-gray-700">
+              A CATERING EXPERIENCE LIKE NO OTHER, CATER-INC OFFERS A BOLD &
+              REFRESHING TAKE ON TRADITIONAL CUISINE.
+            </p>
+            <p className="px-24 max-lg:px-10 max-sm:px-5 mt-5  text-justify">
+              We are the finest corporate caterers in Mumbai that deliver
+              memories with excellent food quality and immaculate services to
+              bring new innovative standards in the catering world. The company
+              promises to serve up smiles with their out-of-the-box appetizers,
+              wholesome main dishes and attractive desserts. With our flair for
+              the theatrical, Cater-Inc chefs can tweak the most traditional and
+              boring dishes with a contemporary artistry introducing cuisines
+              that have never been tried before. Serving as one of the top
+              corporate caterers in Mumbai, Cater-Inc specializes in
+              personalized weddings, conventions, galas, corporate events and
+              parties. We have innovated a flawless and professional corporate
+              catering menu that dispels the boring food served under such
+              premises and promises interesting flavor combinations. Cater-Inc
+              is known for being innovative and accommodating and is listed as
+              the best corporate caterers in Mumbai for designing a bespoke menu
+              for your memorable events, whether big or small.
+            </p>
           </div>
-        </section>
+          <div className="w-[50%] h-auto max-lg:w-full ">
+            <center>
+             
+              <img src={BannerImage} alt="loading" />
+            </center>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
