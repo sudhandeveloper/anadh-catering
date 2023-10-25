@@ -1,6 +1,29 @@
 import React from "react";
 import BannerImage from "../assets/images/home-images/aboutus-image.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+import SlideImageOne from "../assets/images/home-images/slide-image.jpeg";
+import Dash from "../assets/images/home-images/dash.png";
 const Home = () => {
+  const setingOne = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: <PrevArrowOne />,
+    nextArrow: <NextArrowOne />,
+  };
+  function PrevArrowOne(props) {
+    return <div className="hidden"></div>;
+  }
+
+  function NextArrowOne(props) {
+    return <div className="hidden"></div>;
+  }
+
   return (
     <>
       <section>
@@ -60,9 +83,49 @@ const Home = () => {
           </div>
           <div className="w-[50%] h-auto max-lg:w-full ">
             <center>
-             
               <img src={BannerImage} alt="loading" />
             </center>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================= */}
+      <section>
+        <div className="mb-20 mt-20 bg-white pt-20 pb-20 Slide-image-bg">
+          <div className="relative px-36">
+            <Slider {...setingOne} className="Baner-black-white">
+              <div className=" ">
+                <div className="flex w-full">
+              
+              
+                  <div className="w-[50%]">
+                    <img src={SlideImageOne} alt="loading" />
+                  </div>
+                  <div className="w-[50%] bg-white">rfg</div>
+                </div>
+              </div>
+              <div className=" ">
+                <div className="flex w-full">
+                  {" "}
+                  <div className="w-[50%]">
+                    <img src={SlideImageOne} alt="loading" />
+                  </div>
+                  <div className="w-[50%] bg-white">
+                    <center>
+                      <h2>Celebrate corporate life!</h2>
+                   
+                      <p>
+                            From years, Cater-Inc has been renowned corporate
+                            caterers in Mumbai serving delicious food and
+                            beverages to corporate events with time punctuation,
+                            and most precisely with exquisite and refreshing
+                            menu.
+                          </p>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>

@@ -67,3 +67,11 @@
     width: 100%;
   }
 }
+/* ================================================================== */
+.Slide-image-bg{
+  background-image: url("./assets/images/home-images/corporate-events-catering.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
