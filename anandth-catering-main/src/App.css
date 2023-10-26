@@ -29,9 +29,10 @@ html body {
   background-position: left 100%;
   transition-duration: 1s;
   background-size: 0 6%;
-  &:hover {
-    background-size: 100% 6%;
-  }
+  
+}
+.header-line:hover {
+  background-size: 100% 6%;
 }
 /* ==================================== Home banner Image ======================== */
 .banner-image {

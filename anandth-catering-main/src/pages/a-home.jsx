@@ -88,7 +88,7 @@ const Home = () => {
     <>
       <section>
         <div className="w-full relative h-[50%] banner-image ">
-          <div className="absolute top-0 -z-0 bg-black opacity-40 w-full h-full"></div>
+          <div className="absolute top-0 w-full h-full bg-black -z-0 opacity-40"></div>
           <div className="absolute top-0 w-full h-full pt-28">
             <center>
               <div class="styled px-16 max-sm:px-5">
@@ -118,11 +118,11 @@ const Home = () => {
             <h2 className="font-GreatVibes text-[60px] text-[#c69204] text-center mt-10">
               Cater-Inc
             </h2>
-            <p className="text-center px-10 font-serif text-gray-700">
+            <p className="px-10 font-serif text-center text-gray-700">
               A CATERING EXPERIENCE LIKE NO OTHER, CATER-INC OFFERS A BOLD &
               REFRESHING TAKE ON TRADITIONAL CUISINE.
             </p>
-            <p className="px-24 max-lg:px-10 max-sm:px-5 mt-5  text-justify">
+            <p className="px-24 mt-5 text-justify max-lg:px-10 max-sm:px-5">
               We are the finest corporate caterers in Mumbai that deliver
               memories with excellent food quality and immaculate services to
               bring new innovative standards in the catering world. The company
@@ -151,7 +151,7 @@ const Home = () => {
 
       {/* ==============   Services slider =============================== */}
       <section>
-        <div className="mb-20 mt-20 bg-white pt-20 pb-20 Slide-image-bg">
+        <div className="pt-20 pb-20 mt-20 mb-20 bg-white Slide-image-bg">
           <div className="relative px-36 max-md:px-5">
             <Slider {...setingOne} className="Baner-black-white">
               <ServiceComponent
@@ -207,12 +207,12 @@ const Home = () => {
 
       {/* ==============  Why Choose us =============================== */}
 
-      <section className="py-6 dark:bg-gray-800">
+      <section className="py-6 ">
         <div className="container flex flex-col justify-center p-4 mx-auto">
           <h2 className="text-[55px] text-[#c69204] mb-5 font-GreatVibes text-center ">
             Why Choose Us
           </h2>
-          <p className="text-center px-16 mb-10 font-Heeb">
+          <p className="px-16 mb-10 text-center font-Heeb">
             With over 30 years of excellence in delightful catering services.
             Gupta Caterers is one of the best caterers in Kolkata for your
             occasions. We cater to all types of events like weddings, corporates
@@ -221,7 +221,7 @@ const Home = () => {
             flawless. Choosing right from the venue to the menu, everything
             needs to be precisely done for making the event perfect.
           </p>
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 pb-10 lg:grid-cols-4 sm:grid-cols-2">
             <WhyChooseUsCompo
               img={ImageOne}
               heading="Fresh Product"
@@ -252,7 +252,7 @@ const Home = () => {
       {/* ==============  Customize menu =============================== */}
 
       <section>
-        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px]">
+        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
           <img
             className="object-cover w-full h-full"
             src={MenuBaground}
@@ -268,7 +268,7 @@ const Home = () => {
             <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
               Customizable Menu
             </h2>
-            <p className="text-white mt-5">
+            <p className="mt-5 text-white">
               Being the best catering service Kolkata, we kno that every person
               has a different pallete when it comes to food. If you have a
               special event planned out and are struggling to find the right
@@ -285,91 +285,106 @@ const Home = () => {
       </section>
       {/* =========================================================== */}
       <section>
-        <div><h2 className="text-center text-[50px] font-GreatVibes"> Gallary</h2></div>
+        <div className="">
+          <div className="flex px-16">   <div className=" h-[3px] w-[50%] mt-10 max-sm:hidden bg-black "></div>   <h2 className="text-center w-[40%] max-sm:w-full text-[#c69204]  text-[60px]  font-GreatVibes "> Gallary</h2> <div className="w-[50%] h-[3px] mt-10  bg-black max-sm:hidden "></div></div>
+    
+          <section className="py-6 ">
+	<div className="container flex flex-col justify-center p-4 mx-auto">
+		<div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?1" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?2" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?3" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?4" />
+      <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?1" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?2" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?3" />
+			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?4" />
+    </div>
+	</div>
+</section>
+        </div>
       </section>
       {/* ============================================= */}
       <section>
-          <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
-            <div className="w-[40%] max-lg:w-full">
-              <ul className="flex">
-                <li className="pt-3 pr-3">
-                  <div className="h-[2px] w-[70px] bg-green-700"></div>
-                </li>
-                <li>
-                  <h2 className=" font-cormantThiner">
-                    ENHANCE YOU LIVING EXPERIENCE
-                  </h2>
-                </li>
-              </ul>
+        <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
+          <div className="w-[40%] max-lg:w-full">
+            <ul className="flex">
+              <li className="pt-3 pr-3">
+                <div className="h-[2px] w-[70px] bg-green-700"></div>
+              </li>
+              <li>
+                <h2 className=" font-cormantThiner">
+                  ENHANCE YOU LIVING EXPERIENCE
+                </h2>
+              </li>
+            </ul>
 
-              <h2 className="text-[42px]  font-MontserratMedium ">
-                Our Achievements
-              </h2>
-              <p className="mt-5 text-justify text-black  text-[18px] font-Heeb">
-                We keep promises and deliver on-time as per commitments. Every
-                project we undertake is unique and we bring holistic
-                satisfaction to our esteemed clients. Our maximum is to create
-                captivating interior design experiences for home and workplace
-                that are unique, elegant, made of superior quality and full of
-                luxury.
-              </p>
-              <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
-                <button className="text-white uppercase font-cormantThiner">
-                  Contact Us
-                </button>
-                <BsArrowRight className="font-bold text-[35px] text-white " />
-              </div>
-            </div>
-
-            <div className="w-[60%] pt-24 max-lg:w-full rounded-xl  ">
-              <ul className="flex justify-evenly ">
-                <li>
-                  <div>
-                    <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>3,726</span>{" "}
-                      <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
-                    </h2>
-                    <h2 className="font-semibold text-green-700">
-                      Finished Projects
-                    </h2>
-                  </div>
-                </li>
-
-                <li className="pt-10">
-                  <div className="h-[30px] w-[2px] bg-gray-400"></div>
-                </li>
-
-                <li>
-                  <div>
-                    <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>69</span>{" "}
-                      <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
-                    </h2>
-                    <h2 className="font-semibold text-green-700">
-                      On Going Projects
-                    </h2>
-                  </div>
-                </li>
-
-                <li className="pt-10">
-                  <div className="h-[30px] w-[2px] bg-gray-400"></div>
-                </li>
-
-                <li>
-                  <div>
-                    <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
-                      <span>150</span>{" "}
-                      <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
-                    </h2>
-                    <h2 className="font-semibold text-green-700">Awards</h2>
-                  </div>
-                </li>
-              </ul>
+            <h2 className="text-[42px]  font-MontserratMedium ">
+              Our Achievements
+            </h2>
+            <p className="mt-5 text-justify text-black  text-[18px] font-Heeb">
+              We keep promises and deliver on-time as per commitments. Every
+              project we undertake is unique and we bring holistic satisfaction
+              to our esteemed clients. Our maximum is to create captivating
+              interior design experiences for home and workplace that are
+              unique, elegant, made of superior quality and full of luxury.
+            </p>
+            <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
+              <button className="text-white uppercase font-cormantThiner">
+                Contact Us
+              </button>
+              <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>
           </div>
-        </section>
+
+          <div className="w-[60%] pt-24 max-lg:w-full rounded-xl  ">
+            <ul className="flex justify-evenly ">
+              <li>
+                <div>
+                  <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
+                    <span>3,726</span>{" "}
+                    <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
+                  </h2>
+                  <h2 className="font-semibold text-green-700">
+                    Finished Projects
+                  </h2>
+                </div>
+              </li>
+
+              <li className="pt-10">
+                <div className="h-[30px] w-[2px] bg-gray-400"></div>
+              </li>
+
+              <li>
+                <div>
+                  <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
+                    <span>69</span>{" "}
+                    <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
+                  </h2>
+                  <h2 className="font-semibold text-green-700">
+                    On Going Projects
+                  </h2>
+                </div>
+              </li>
+
+              <li className="pt-10">
+                <div className="h-[30px] w-[2px] bg-gray-400"></div>
+              </li>
+
+              <li>
+                <div>
+                  <h2 className="text-[50px] max-sm:text-[30px] font-semibold flex">
+                    <span>150</span>{" "}
+                    <span className="text-green-700 text-[25px] ml-3">+</span>{" "}
+                  </h2>
+                  <h2 className="font-semibold text-green-700">Awards</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <section>
-      
         {/* ======================= testimonial ==================================== */}
         <section>
           <div className="px-10 pb-10 max-sm:px-1">
@@ -483,6 +498,7 @@ const Home = () => {
                     </li>
                   </ul>
                 </center>
+                
               </Slider>
             </div>
           </div>
