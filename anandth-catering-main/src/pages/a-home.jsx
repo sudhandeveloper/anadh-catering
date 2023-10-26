@@ -12,21 +12,26 @@ import { BsArrowRight } from "react-icons/bs";
 
 import ServiceComponent from "../components/home-component/services-componet";
 import SlideImageOne from "../assets/images/home-images/slide-image.jpeg";
+import Wedding from "../assets/images/home-images/buffea.jpeg";
+import OutdoorCatering from "../assets/images/home-images/outdoor-catering.jpeg";
 import Dash from "../assets/images/home-images/dash.png";
 
 import WhyChooseUsCompo from "../components/home-component/why-choose-us-compo";
-import ImageOne from "../assets/images/why-choos-us-images/image-one.png";
-import ImageTwo from "../assets/images/why-choos-us-images/image-two.png";
-import ImageThree from "../assets/images/why-choos-us-images/image-three.png";
-import ImageFour from "../assets/images/why-choos-us-images/image-four.png";
+import ImageOne from "../assets/images/home-images/why-choos-us-images/image-one.png";
+import ImageTwo from "../assets/images/home-images/why-choos-us-images/image-two.png";
+import ImageThree from "../assets/images/home-images/why-choos-us-images/image-three.png";
+import ImageFour from "../assets/images/home-images/why-choos-us-images/image-four.png";
 
+import MenuBaground from "../assets/images/home-images/bg-menu.jpg";
 const Home = () => {
   const setingOne = {
     dots: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    speed: 10,
     slidesToShow: 1,
     slidesToScroll: 1,
+
     prevArrow: <PrevArrowOne />,
     nextArrow: <NextArrowOne />,
   };
@@ -164,7 +169,7 @@ const Home = () => {
               />
 
               <ServiceComponent
-                mainimage={SlideImageOne}
+                mainimage={Wedding}
                 Headingone="Exquisite!"
                 headingtwo={"Wedding Catering"}
                 Dashimage={Dash}
@@ -179,7 +184,7 @@ const Home = () => {
               />
 
               <ServiceComponent
-                mainimage={SlideImageOne}
+                mainimage={OutdoorCatering}
                 Headingone="You can’t miss this!"
                 headingtwo={"Outdoor Events Catering"}
                 Dashimage={Dash}
@@ -247,23 +252,31 @@ const Home = () => {
       {/* ==============  Customize menu =============================== */}
 
       <section>
-        <div className="relative h-96 max-md:h-[500px]">
+        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px]">
           <img
             className="object-cover w-full h-full"
-            src={BannerImage}
+            src={MenuBaground}
             alt="loading"
           />
 
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
-              Interior Designers GALLARY
+            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-Barlow text-white ">
+              Your Wish Is Our Command
             </h2>
-            <h2 className="text-[65px] font-semibold font-Barlow text-white ">
-              INDDECORE INTERIO
+            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
+              Customizable Menu
             </h2>
-            <div className="w-20 h-[1px] bg-red-600"></div>
+            <p className="text-white mt-5">
+              Being the best catering service Kolkata, we kno that every person
+              has a different pallete when it comes to food. If you have a
+              special event planned out and are struggling to find the right
+              menu options, we can help. With Asparagus Catering Unit, you can
+              get the opportunity to customise your own menu according to your
+              event theme. You choose and we deliver!
+            </p>
+            <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
             <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
               Hire us
             </button>
@@ -272,7 +285,6 @@ const Home = () => {
       </section>
       {/* ============================================= */}
       <section>
-        <section>
           <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
             <div className="w-[40%] max-lg:w-full">
               <ul className="flex">
@@ -352,11 +364,13 @@ const Home = () => {
             </div>
           </div>
         </section>
+      <section>
+      
         {/* ======================= testimonial ==================================== */}
         <section>
           <div className="px-10 pb-10 max-sm:px-1">
             <div>
-              <h2 className="text-center text-[52px] font-GreatVibes  text-[#c69204] pt-10 ">
+              <h2 className="text-center text-[52px] max-sm:text-[30px] font-GreatVibes  text-[#c69204] pt-10 ">
                 What Our Clients Says
               </h2>
             </div>

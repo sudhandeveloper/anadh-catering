@@ -8,7 +8,7 @@ const ServiceComponent = (props) => {
           {" "}
           <div className="w-[50%] h-full max-lg:hidden ">
             <img
-              className="object-cover h-full"
+              className="object-cover w-full h-full"
               src={props.mainimage}
               alt="loading"
             />
@@ -22,7 +22,7 @@ const ServiceComponent = (props) => {
               <img className="mt-5 mb-5" src={props.Dashimage} alt="loading" />
               <p className="font-Heeb   ">{props.para}</p>
               <button className="w-auto h-auto px-5 py-2 mt-10 bg-green-700 text-white rounded-md">
-              <Link to={props.link}>View More </Link>  
+                <Link to={props.link}>View More </Link>
               </button>
             </center>
           </div>
