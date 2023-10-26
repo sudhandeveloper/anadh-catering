@@ -283,6 +283,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* =========================================================== */}
+      <section>
+        <div><h2 className="text-center text-[50px] font-GreatVibes"> Gallary</h2></div>
+      </section>
       {/* ============================================= */}
       <section>
           <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
