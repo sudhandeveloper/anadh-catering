@@ -149,7 +149,7 @@ const Abouts = () => {
                   Discuss Your Needs With Us
                 </h2>
                 <div className="w-96 h-[2px] max-lg:w-auto bg-[#f39a12]  mb-2"></div>
-                <p className="font-Heeb text-[18px] mt-5">
+                <p className="font-Heeb text-[18px] mt-5 max-md:pb-10">
                   Looking for a catering service that understands your unique
                   needs? Look no further than Discuss Your Needs With Us. We
                   tailor our services to you
