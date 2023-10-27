@@ -21,10 +21,10 @@ const NavOne = () => {
   return (
     <>
       <section>
-        <div className=" h-auto text-white bg-black ">
+        <div className="h-auto text-white bg-black ">
           <div className="w-[100%] flex justify-end  h-auto ">
             <div className="w-[20%] max-md:w-full bg- max-sm:px-10">
-              <ul className="flex w-full max-md:pb-3 cursor-pointer pt-3 gap-5  justify-center max-md:justify-start">
+              <ul className="flex justify-center w-full gap-5 pt-3 cursor-pointer max-md:pb-3 max-md:justify-start">
                 <li className="w-8 h-8 pt-[5px]  rounded-full">
                   <center>
                     <BiLogoFacebook className="text-[25px] text-white" />
@@ -58,7 +58,7 @@ const NavOne = () => {
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="mt-[10px] max-sm:hidden">
-                  <button className=" px-5 pt-2 pb-1 rounded-md uppercase font-serif text-white bg-green-600  ">
+                  <button className="px-5 pt-2 pb-1 font-serif text-white uppercase bg-green-600 rounded-md ">
                     <span>Contact us</span>
                   </button>
                 </li>
@@ -83,7 +83,7 @@ const NavOne = () => {
               drawer ? "max-md:hidden" : "show helo"
             }`}
           >
-            <div className="w-auto h-auto  pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
+            <div className="w-auto h-auto pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
               <img
                 className="object-contain h-[70px] "
                 src={AnanthamLogo}
@@ -101,14 +101,14 @@ const NavOne = () => {
                 <li className="header-line relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <div className="flex ">
                     {" "}
-                    <span className="he"><Link to={"Services"}>Services </Link>  </span>
+                    <span className="he"><Link to={"Service"}>Services </Link>  </span>
                     <h2 className="hidden">
                       <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
                     </h2>
                   </div>
 {/* servicedropdownitem */}
-                  {/* <div className="absolute hidden z-20 max-md:static w-80  top-5">
-                    <div className="py-3 pl-2 pr-2 mt-8 bg-white shadow-xl rounded-md max-md:mt-2 innerserviceitem ">
+                  {/* <div className="absolute z-20 hidden max-md:static w-80 top-5">
+                    <div className="py-3 pl-2 pr-2 mt-8 bg-white rounded-md shadow-xl max-md:mt-2 innerserviceitem ">
                       <ul>
                         <li className="pb-2 header-line he border-b-[1px] border-b-gray-100">
                           <Link to={"Home-interiories"}> Home Interiors </Link>
