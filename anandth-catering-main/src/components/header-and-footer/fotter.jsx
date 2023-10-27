@@ -11,8 +11,9 @@ import FooterBagroundImage from "../../assets/images/home-images/footer-banner.j
 const Footer = () => {
   return (
     <>
-      <section>
-        <footer className="px-4 divide-y  text-white footer-banner ">
+      <section className=" footer-banner relative">
+        <div className="absolute top-0 w-full h-full bg-black opacity-60"></div>
+        <footer className="px-10 divide-y absolute top-0 text-white ">
 
           <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
