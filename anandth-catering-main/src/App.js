@@ -3,14 +3,18 @@ import "./App.css";
 import Navbar from "./components/header-and-footer/header";
 import Footer from "./components/header-and-footer/fotter";
 import Home from "./pages/a-home";
+import Aboutus from "./pages/about-us";
+import Contactss from "./pages/contact";
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<Aboutus />} />
+        <Route path="/Contact" element={<Contactss />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }

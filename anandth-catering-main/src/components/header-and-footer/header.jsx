@@ -102,12 +102,12 @@ const NavOne = () => {
                   <div className="flex ">
                     {" "}
                     <span className="he">Services </span>
-                    <h2>
+                    <h2 className="hidden">
                       <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
                     </h2>
                   </div>
-
-                  <div className="absolute z-20 max-md:static w-80 servicedropdownitem top-5">
+{/* servicedropdownitem */}
+                  {/* <div className="absolute hidden z-20 max-md:static w-80  top-5">
                     <div className="py-3 pl-2 pr-2 mt-8 bg-white shadow-xl rounded-md max-md:mt-2 innerserviceitem ">
                       <ul>
                         <li className="pb-2 header-line he border-b-[1px] border-b-gray-100">
@@ -127,7 +127,7 @@ const NavOne = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"Gallary"}>Menu </Link>
@@ -136,7 +136,7 @@ const NavOne = () => {
                   <Link to={"Gallary"}>Fixed Menu </Link>
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
-                  <Link to="Contact-us">Contact</Link>
+                  <Link to="Contact">Contact</Link>
                 </li>
               </ul>
             </div>

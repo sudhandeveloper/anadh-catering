@@ -277,7 +277,7 @@ const Home = () => {
               event theme. You choose and we deliver!
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-red-600 font-cormantThiner tracking-wider]">
+            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
             </button>
           </div>
@@ -286,25 +286,57 @@ const Home = () => {
       {/* =========================================================== */}
       <section>
         <div className="">
-          <div className="flex px-16">   <div className=" h-[3px] w-[50%] mt-10 max-sm:hidden bg-black "></div>   <h2 className="text-center w-[40%] max-sm:w-full text-[#c69204]  text-[60px]  font-GreatVibes "> Gallary</h2> <div className="w-[50%] h-[3px] mt-10  bg-black max-sm:hidden "></div></div>
-    
+          <div className="flex px-16">
+            {" "}
+            <div className=" h-[3px] w-[50%] mt-10 max-sm:hidden bg-black "></div>{" "}
+            <h2 className="text-center w-[40%] max-sm:w-full text-[#c69204]  text-[60px]  font-GreatVibes ">
+              {" "}
+              Gallary
+            </h2>{" "}
+            <div className="w-[50%] h-[3px] mt-10  bg-black max-sm:hidden "></div>
+          </div>
+
           <section className="py-6 ">
-	<div className="container flex flex-col justify-center p-4 mx-auto">
-		<div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?1" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?2" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?3" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?4" />
-      <img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?1" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?2" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?3" />
-			<img className="object-cover w-full dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/300x300/?4" />
-    </div>
-	</div>
-</section>
+            <div className="container flex flex-col justify-center p-4 mx-auto">
+              <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?1"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?2"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?3"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?4"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?1"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?2"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?3"
+                />
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src="https://source.unsplash.com/random/300x300/?4"
+                />
+              </div>
+            </div>
+          </section>
         </div>
       </section>
-      {/* ============================================= */}
+      {/* =================== achivements ========================== */}
       <section>
         <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
           <div className="w-[40%] max-lg:w-full">
@@ -384,8 +416,47 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ==================== choose wide varity of options=========================== */}
       <section>
-        {/* ======================= testimonial ==================================== */}
+        <div className="relative max-md:h-[670px] h-[550px] max-sm:h-[7
+          
+          
+          
+          00px] mt-10 mb-10">
+          <img
+            className="object-cover w-full h-full"
+            src={MenuBaground}
+            alt="loading"
+          />
+
+          <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
+
+          <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
+            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-Barlow text-white ">
+              Choose From A Wide Range
+            </h2>
+            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
+              Get A Variety Of Menu Options​
+            </h2>
+            <p className="mt-5 text-white  font-Heeb">
+              When it comes to catering your event, we have you covered. We have
+              a wide variety of menu options to choose from, so you can find the
+              perfect fit for your event. And our experienced staff will take
+              care of everything, from set-up to clean-up, so you can relax and
+              enjoy your special day. Contact us today to learn more about our
+              catering service and see how we can help make your event a success
+            </p>
+            <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
+            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+              Hire us
+            </button>
+          </div>
+        </div>
+      </section>
+      {/* ======================= testimonial ==================================== */}
+
+      <section>
         <section>
           <div className="px-10 pb-10 max-sm:px-1">
             <div>
@@ -498,7 +569,6 @@ const Home = () => {
                     </li>
                   </ul>
                 </center>
-                
               </Slider>
             </div>
           </div>
