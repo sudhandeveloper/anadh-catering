@@ -22,7 +22,7 @@ const Abouts = () => {
               <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
                 CATERING SERVICES
               </h2>
-              <h2 className="text-[65px] font-semibold font-Barlow max-lg:text-[50px] text-white ">
+              <h2 className="text-[60px] font-medium font-Heeb max-lg:text-[50px] text-white ">
                 ABOUT ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
@@ -34,12 +34,12 @@ const Abouts = () => {
         </section>
         {/* =============== about us ============================== */}
         <section>
-          <div className="flex px-20 max-lg:px-6 max-lg:flex-col h-auto AboutusBgImage">
+          <div className="flex h-auto px-20 max-lg:px-6 max-lg:flex-col AboutusBgImage">
             <div className="h-auto max-lg:w-[100%]  w-[50%] mt-5 ">
               <center>
                 {" "}
                 <img
-                  className="h-96 mt-20 max-md:w-full object-cover max-md:object-contain"
+                  className="object-cover mt-20 h-96 max-md:w-full max-md:object-contain"
                   src={Aboutusimage}
                   alt="loading"
                 />{" "}
@@ -65,9 +65,52 @@ const Abouts = () => {
           </div>
         </section>
 
+   
         {/* ============================================= */}
         <section>
-          <div className="flex px-20 max-lg:px-6 max-lg:flex-col h-auto ">
+          <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
+            <img
+              className="object-cover w-full h-full"
+              src={Healthy}
+              alt="loading"
+            />
+
+            <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
+
+            <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-2">
+              <h2 className="text-[65px] text-center max-sm:text-[40px] font-semibold font-GreatVibes tracking-widest text-[#c69204]">
+                Customizable Menu
+              </h2>
+              <p className="mt-5 text-white text-center  font-Heeb tracking-wider text-[25px] max-md:text-[20px]">
+                WE STRIVE TO DELIVER HIGH CLASS SERVICE AND CREATIVITY ON EVERY
+                LEVEL WITH CONSISTENT PROFESSIONALISM. FROM HIGH QUALITY FOOD TO
+                UNIQUE CONCEPTS, OUR GOAL IS TO COMPLEMENT AND EXCEED THE VISION
+                OF OUR CLIENTS.
+              </p>
+
+              <center>
+                {" "}
+                <div className="w-20 h-[1px] bg-red-600 mt-10"></div>{" "}
+                <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+                  Hire us
+                </button>{" "}
+              </center>
+            </div>
+          </div>
+        </section>
+             {/* ============================================= */}
+             <section>
+          <div className="flex h-auto px-20 max-lg:px-6 max-lg:flex-col ">
+          <div className="h-auto max-lg:w-[100%]  w-[50%]  pt-10">
+              <center>
+                {" "}
+                <img
+                  className="object-cover mt-20 h-96 max-md:w-full max-md:object-contain"
+                  src={ImageTwo}
+                  alt="loading"
+                />{" "}
+              </center>
+            </div>
             <div className="w-[50%]  max-lg:w-[100%] max-md:pt-0 pt-32">
               <center>
                 <h2 className="text-[40px] font-GreatVibes text-[#c69204]">
@@ -75,7 +118,7 @@ const Abouts = () => {
                 </h2>
                 <h2 className="text-[20px]">ALWAYS FRESH INGREDIENTS</h2>
                 <div className="w-full h-auto mt-5 border-t-2 border-b-2">
-                  <p className="my-10 ">
+                  <p className="my-10 font-Heeb">
                     Harvest explore all avenues of catering services to serve
                     our guests. With devoted professionals, we organize all
                     types of functions including weddings, anniversaries,
@@ -93,48 +136,7 @@ const Abouts = () => {
                 </div>
               </center>
             </div>
-            <div className="h-auto max-lg:w-[100%]  w-[50%] mt-5 pt-10">
-              <center>
-                {" "}
-                <img
-                  className="h-96 mt-20 max-md:w-full object-cover max-md:object-contain"
-                  src={ImageTwo}
-                  alt="loading"
-                />{" "}
-              </center>
-            </div>
-          </div>
-        </section>
-        {/* ============================================= */}
-        <section>
-          <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
-            <img
-              className="object-cover w-full h-full"
-              src={Healthy}
-              alt="loading"
-            />
-
-            <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
-
-            <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-2">
-              <h2 className="text-[65px] text-center max-sm:text-[40px] font-semibold font-GreatVibes tracking-wider text-white ">
-                Customizable Menu
-              </h2>
-              <p className="mt-5 text-white text-center text-[30px] max-md:text-[20px]">
-                WE STRIVE TO DELIVER HIGH CLASS SERVICE AND CREATIVITY ON EVERY
-                LEVEL WITH CONSISTENT PROFESSIONALISM. FROM HIGH QUALITY FOOD TO
-                UNIQUE CONCEPTS, OUR GOAL IS TO COMPLEMENT AND EXCEED THE VISION
-                OF OUR CLIENTS.
-              </p>
-
-              <center>
-                {" "}
-                <div className="w-20 h-[1px] bg-red-600 mt-10"></div>{" "}
-                <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
-                  Hire us
-                </button>{" "}
-              </center>
-            </div>
+        
           </div>
         </section>
         {/* ================================================== */}
