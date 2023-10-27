@@ -5,7 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png";
 import { FaLocationDot } from "react-icons/fa6";
-import FooterBagroundImage from "../../assets/images/home-images/footer-banner.jpg";
+
 // import Footerbg from "../../assets/images/home/footerbg.webp";
 // bg-[#00677f]
 const Footer = () => {
@@ -13,11 +13,10 @@ const Footer = () => {
     <>
       <section className=" footer-banner relative">
         <div className="absolute top-0 w-full h-full bg-black opacity-60"></div>
-        <footer className="px-10 divide-y absolute top-0 text-white ">
-
+        <footer className="px-10 divide-y w-[100%] absolute top-0 text-white ">
           <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
-              <span className="self-center text-2xl font-semibold">
+              {/* <span className="self-center text-2xl font-semibold">
                 <span className="text-green-600 font-Heeb">ANANDTHAM </span>
                 CATERING SERVICES
               </span>
@@ -29,7 +28,9 @@ const Footer = () => {
                   of master cooks, to make your every event memorable. We cater
                   to personal and corporate events of all sizes.
                 </p>
-              </div>
+              </div> */}
+              <center> <img className="h-56" src={AnanthamLogo} alt="loading" /> </center>
+             
             </div>
             <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
               <div className="space-y-3    ">
@@ -157,7 +158,6 @@ const Footer = () => {
                     </svg>{" "}
                   </div>
                   <div>
-                   
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 32 32"
@@ -182,80 +182,3 @@ const Footer = () => {
 };
 
 export default Footer;
-<div className="relative w-full h-full bg-red-400">
-  <img
-    className="w-full h-[500px] object-cover"
-    src={FooterBagroundImage}
-    alt="loading"
-  />
-</div>;
-<section>
-  <div className="relative h-auto w-auto">
-    <div className="max-md:h-[2000px] w-auto">
-      <img
-        className="h-full w-full object-cover"
-        src={FooterBagroundImage}
-        alt="loading"
-      />
-      <div className=" z-20">
-        <section className="pt-10 absolute top-0 ">
-          <div className="px-10 pb-10 max-sm:pb-3">
-            <section className="py-6 ">
-              <div className="container flex flex-col justify-center p-4 mx-auto">
-                <div className="grid grid-cols-1 gap-4 lg:grid-cols-5 sm:grid-cols-2">
-                  <div className="  h-full ">
-                    <img
-                      className="object-cover h-auto"
-                      src={AnanthamLogo}
-                      alt="loading"
-                    />
-                  </div>
-
-                  <div className="w-[120%]  mt-5">
-                    <div className="">
-                      <h2 className="text-[23px]  font-MontserratMedium text-white ">
-                        <span className="text-green-500">ANANDHAM </span>{" "}
-                        CATERING
-                      </h2>
-                      <div className="w-full bg-green-500 h-[1px] mt-2"></div>
-
-                      {/* <ul className="mt-2 font-medium text-white  font-Barlow">
-         <li className="flex ">
-           <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-           <span className="">About us </span>
-         </li>
-         <li className="flex ">
-           <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-           <span>Services </span>
-         </li>
-         <li className="flex ">
-           <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-           <span>Portfolio </span>
-         </li>
-         <li className="flex ">
-           <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-           <span>Contact Us </span>
-         </li>
-       </ul> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <div></div>
-            {/* <div className="h-[1px] mt-16 opacity-60 rounded-full bg-green-500 w-full"></div>
-<div className="flex "></div> */}
-          </div>
-        </section>
-      </div>
-    </div>
-    <div className="h-full w-full bg-black opacity-30 absolute top-0"></div>
-  </div>
-  <div className="flex max-md:flex-col justify-between font-Heeb tracking-wider px-10 py-2 text-white  bg-green-600 ">
-    <p>Design and Developed by Honey Iconics</p>
-    <p className="text-end">
-      Copyright © Anandtham Catering All rights reserved
-    </p>
-  </div>
-</section>;

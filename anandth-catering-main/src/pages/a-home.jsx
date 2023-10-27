@@ -419,11 +419,13 @@ const Home = () => {
 
       {/* ==================== choose wide varity of options=========================== */}
       <section>
-        <div className="relative max-md:h-[670px] h-[550px] max-sm:h-[7
+        <div
+          className="relative max-md:h-[670px] h-[550px] max-sm:h-[7
           
           
           
-          00px] mt-10 mb-10">
+          00px]  mb-10"
+        >
           <img
             className="object-cover w-full h-full"
             src={MenuBaground}

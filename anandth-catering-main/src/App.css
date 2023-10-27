@@ -25,7 +25,7 @@ html body {
 }
 @media (max-width: 1024.98px) {
   .footer-banner{
-    height: 600px;
+    height: 800px;
   }
 }
 @media (max-width: 647.98px) {
@@ -99,7 +99,7 @@ html body {
   );
 }
 /* ============================================================ */
-.filterDiv {
+/* .filterDiv {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
@@ -117,10 +117,10 @@ html body {
 .container {
   margin-top: 20px;
   overflow: hidden;
-}
+} */
 
 /* Style the buttons */
-.btn {
+/* .btn {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -135,4 +135,10 @@ html body {
 .btn.active {
   background-color: #666;
   color: white;
+} */
+/* ============================================================ */
+.AboutusBgImage{
+  background-image: url("./assets/images/about-us-images/bgimageaboutus.png");
+  height: 100%;
+  width: 100%;
 }
