@@ -25,10 +25,12 @@ import Imagess from "../assets/images/home-images/The Republic _ 2017.jpeg";
 import MenuBaground from "../assets/images/home-images/bg-menu.jpg";
 const Home = () => {
   const setingOne = {
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
     dots: true,
     infinite: true,
-    autoplay: true,
-    speed: 10,
+   
     slidesToShow: 1,
     slidesToScroll: 1,
 

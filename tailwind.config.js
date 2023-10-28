@@ -8,7 +8,10 @@ export const theme = {
       Montserrat:["'Montserrat', sans-serif"],
       MontserratMedium:["'Montserrat', sans-serif"],
       Heeb:["'Heebo', sans-serif"],
-      GreatVibes:["'Great Vibes', cursive"] 
+      GreatVibes:["'Great Vibes', cursive"],
+      cormorant: ["'Cormorant Infant', serif"],
+      cormantThiner:["'Cormorant Infant', serif"], 
+      cormantfive:["'Cormorant Infant', serif"]
     },
   },
 };
