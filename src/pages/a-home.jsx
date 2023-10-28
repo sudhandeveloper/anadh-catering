@@ -98,7 +98,7 @@ const Home = () => {
                     <h2 className="text-white text-[50px] font-bold">
                       DELICIOUS MEMORIES
                     </h2>
-                    <p className="text-white text-[18px] pb-16">
+                    <p className="text-white font-Heeb text-[18px] pb-16">
                       Cater-Inc strives to produce innovative culinary art,
                       creating memorable experiences through inspired cuisine
                       and impeccable service.
@@ -122,7 +122,7 @@ const Home = () => {
               A CATERING EXPERIENCE LIKE NO OTHER, CATER-INC OFFERS A BOLD &
               REFRESHING TAKE ON TRADITIONAL CUISINE.
             </p>
-            <p className="px-24 mt-5 text-justify max-lg:px-10 max-sm:px-5">
+            <p className="px-24 mt-5 text-center font-Heeb max-lg:px-10 max-sm:px-5">
               We are the finest corporate caterers in Mumbai that deliver
               memories with excellent food quality and immaculate services to
               bring new innovative standards in the catering world. The company
@@ -268,7 +268,7 @@ const Home = () => {
             <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
               Customizable Menu
             </h2>
-            <p className="mt-5 text-white">
+            <p className="mt-5 text-white font-Heeb">
               Being the best catering service Kolkata, we kno that every person
               has a different pallete when it comes to food. If you have a
               special event planned out and are struggling to find the right
@@ -445,7 +445,7 @@ const Home = () => {
             <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
               Get A Variety Of Menu Options​
             </h2>
-            <p className="mt-5 text-white  font-Heeb">
+            <p className="mt-5 text-white font-Heeb">
               When it comes to catering your event, we have you covered. We have
               a wide variety of menu options to choose from, so you can find the
               perfect fit for your event. And our experienced staff will take
@@ -507,7 +507,7 @@ const Home = () => {
                         <p>
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
-                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
+                        <p className="text-[18px] max-md:text-[20px] font-Heeb text-black font-cormantThiner text-justify">
                           Indo decor is a luxury interior designer who’s
                           passionate about creating environments that reflect
                           the unique personalities of her clients. She founded
@@ -559,7 +559,7 @@ const Home = () => {
                         <p>
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
-                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner text-justify">
+                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner font-Heeb text-justify">
                           Indo decor is a luxury interior designer who’s
                           passionate about creating environments that reflect
                           the unique personalities of her clients. She founded
