@@ -66,21 +66,40 @@ const Service = () => {
           </p>
         </div>
       </section>
-          {/* ============================================== */}
-          <section>
+      {/* ============================================== */}
+      <section>
         <div className="px-16 ">
           {" "}
           <h2 className="text-green-700  mt-10 text-[50px] font-cormantfive uppercase mb-5 tracking-normal ">
-          Why us?
+            Why us?
           </h2>
           <p className="text-justify text-[20px] font-cormantThiner">
-          At Jaiganesh Catering Services, we understand that choosing the right catering service for your special event is a decision that reflects your taste, style, and commitment to creating memorable moments. When it comes to catering in Coimbatore, we are proud to be your top choice for a multitude of reasons:
-<br /><br />
-Our dedication to the culinary arts is unmatched. With a legacy spanning over 25 years, of Services has perfected the art of creating exquisite dishes that tantalize the taste buds and leave a lasting impression. Our team of experienced chefs takes pride in crafting diverse menus that blend traditional flavors with modern innovation.
-<br /><br />
-Our services is not just a part of our job; it’s our passion. Our professional and courteous staff ensures that your event runs seamlessly. We go the extra mile to provide attentive, efficient, and friendly service, leaving you and your guests with nothing to worry about except enjoying the moment.
-<br /><br />
-Your safety and health are our top priorities.Our Services adheres to the highest standards of hygiene and sanitation. We follow stringent protocols to maintain cleanliness and ensure the safety of our food and services, giving you peace of mind during your event.
+            At Jaiganesh Catering Services, we understand that choosing the
+            right catering service for your special event is a decision that
+            reflects your taste, style, and commitment to creating memorable
+            moments. When it comes to catering in Coimbatore, we are proud to be
+            your top choice for a multitude of reasons:
+            <br />
+            <br />
+            Our dedication to the culinary arts is unmatched. With a legacy
+            spanning over 25 years, of Services has perfected the art of
+            creating exquisite dishes that tantalize the taste buds and leave a
+            lasting impression. Our team of experienced chefs takes pride in
+            crafting diverse menus that blend traditional flavors with modern
+            innovation.
+            <br />
+            <br />
+            Our services is not just a part of our job; it’s our passion. Our
+            professional and courteous staff ensures that your event runs
+            seamlessly. We go the extra mile to provide attentive, efficient,
+            and friendly service, leaving you and your guests with nothing to
+            worry about except enjoying the moment.
+            <br />
+            <br />
+            Your safety and health are our top priorities.Our Services adheres
+            to the highest standards of hygiene and sanitation. We follow
+            stringent protocols to maintain cleanliness and ensure the safety of
+            our food and services, giving you peace of mind during your event.
           </p>
         </div>
       </section>

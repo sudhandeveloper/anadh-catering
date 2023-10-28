@@ -130,10 +130,10 @@ const NavOne = () => {
                   </div> */}
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <Link to={"Gallary"}>Menu </Link>
+                  <Link to={"Menu"}>Menu </Link>
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <Link to={"Gallary"}>Fixed Menu </Link>
+                  <Link to={"FixedMenu"}>Fixed Menu </Link>
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 ">
                   <Link to="Contact">Contact</Link>
