@@ -30,12 +30,16 @@ const menu = () => {
       </section>
       {/* ====================================== */}
       <section>
+        <h2 className='text-center mt-10 text-[30px] font-cormantThiner text-green-700'>DELICIOUS MENUS OF ANANDTHAM CATERING</h2>
+      </section>
+       {/* ====================================== */}
+      <section>
 <Menus/>
       </section>
       {/* ===================================== */}
       <section>
         <div>
-          
+
         </div>
       </section>
   </>

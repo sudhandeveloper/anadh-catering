@@ -24,12 +24,12 @@ html body {
   background-position: bottom;
 }
 @media (max-width: 1024.98px) {
-  .footer-banner{
+  .footer-banner {
     height: 800px;
   }
 }
 @media (max-width: 647.98px) {
-  .footer-banner{
+  .footer-banner {
     height: 900px;
   }
 }
@@ -40,7 +40,6 @@ html body {
   background-position: left 100%;
   transition-duration: 1s;
   background-size: 0 6%;
-  
 }
 .header-line:hover {
   background-size: 100% 6%;
@@ -84,7 +83,7 @@ html body {
   }
 }
 /* ================================================================== */
-.Slide-image-bg{
+.Slide-image-bg {
   background-image: url("./assets/images/home-images/corporate-events-catering.jpg");
   height: 100%;
   width: 100%;
@@ -137,41 +136,37 @@ html body {
   color: white;
 } */
 /* ============================================================ */
-.AboutusBgImage{
+.AboutusBgImage {
   background-image: url("./assets/images/about-us-images/bgimageaboutus.png");
   height: 100%;
   width: 100%;
 }
 /* ============================================================ */
-.tabs{
-  font-family:arial;
-  margin:0 auto;
-  width:70%;
-  text-align:center;
-  margin-top:15vh;
+.tabs {
+  font-family: "Cormorant Infant", serif;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
 }
 
-
-
-.tab-buttons{
-  margin-bottom:50px;
+.tab-buttons {
+  margin-bottom: 50px;
 }
 
-button{
-  margin-right:15px;
-  font-size:20px;
-  background:transparent;
-  border:none;
-  outline:none;
-  padding:0.5% 2.5% ;
-  cursor:pointer;
-  color:rgba(0,0,0,.4);
-  transition:all ease-in-out .2s;
-  border-bottom:2px solid transparent;
-  
+button {
+  margin-right: 15px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5% 2.5%;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 0.2s;
+  border-bottom: 2px solid transparent;
 }
-.active{
- background: #38b200;
- border-radius: 8px;
-  color:rgb(255, 255, 255);
+.active {
+  background: #38b200;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
 }

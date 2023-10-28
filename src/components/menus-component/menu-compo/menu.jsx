@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Menu = () => {
   return (
     <div className="tabs">
-      <h1>React Tabs</h1>
+    
       <Tabs>
         <Tab label="Beverages" className="font-cormantThiner uppercase">
           <div>
