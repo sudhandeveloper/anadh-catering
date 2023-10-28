@@ -101,7 +101,7 @@ const NavOne = () => {
                 <li className="header-line relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <div className="flex ">
                     {" "}
-                    <span className="he"><Link to={"Services"}>Services </Link>  </span>
+                    <span className="he"><Link to={"Service"}>Services </Link>  </span>
                     <h2 className="hidden">
                       <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
                     </h2>

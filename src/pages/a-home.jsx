@@ -21,7 +21,7 @@ import ImageOne from "../assets/images/home-images/why-choos-us-images/image-one
 import ImageTwo from "../assets/images/home-images/why-choos-us-images/image-two.png";
 import ImageThree from "../assets/images/home-images/why-choos-us-images/image-three.png";
 import ImageFour from "../assets/images/home-images/why-choos-us-images/image-four.png";
-
+import Imagess from "../assets/images/home-images/The Republic _ 2017.jpeg";
 import MenuBaground from "../assets/images/home-images/bg-menu.jpg";
 const Home = () => {
   const setingOne = {
@@ -428,15 +428,11 @@ const Home = () => {
       {/* ==================== choose wide varity of options=========================== */}
       <section>
         <div
-          className="relative max-md:h-[670px] h-[550px] max-sm:h-[7
-          
-          
-          
-          00px]  mb-10"
+          className="relative max-md:h-[670px] h-[550px] max-sm:h-[700px]  mb-10"
         >
           <img
             className="object-cover w-full h-full"
-            src={MenuBaground}
+            src={Imagess}
             alt="loading"
           />
 
