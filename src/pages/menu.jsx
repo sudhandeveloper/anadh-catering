@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Menu from "../assets/images/menu-image/menu-images.jpg";
+import Menus from "../components/menus-component/menu-compo/menu";
 const menu = () => {
   return (
   <>
@@ -7,7 +8,7 @@ const menu = () => {
         <div className="relative h-96 max-md:h-[500px]">
           <img
             className="object-cover w-full h-full"
-            src={""}
+            src={Menu}
             alt="loading"
           />
 
@@ -18,13 +19,23 @@ const menu = () => {
               CATERING SERVICES
             </h2>
             <h2 className="text-[65px] font-semibold font-cormantThiner max-lg:text-[50px] text-white ">
-              ABOUT ANANDTHAM CATERING
+              MENUS OF ANANDTHAM CATERING
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
             <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
             </button>
           </div>
+        </div>
+      </section>
+      {/* ====================================== */}
+      <section>
+<Menus/>
+      </section>
+      {/* ===================================== */}
+      <section>
+        <div>
+          
         </div>
       </section>
   </>

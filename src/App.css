@@ -142,3 +142,36 @@ html body {
   height: 100%;
   width: 100%;
 }
+/* ============================================================ */
+.tabs{
+  font-family:arial;
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  margin-top:15vh;
+}
+
+
+
+.tab-buttons{
+  margin-bottom:50px;
+}
+
+button{
+  margin-right:15px;
+  font-size:20px;
+  background:transparent;
+  border:none;
+  outline:none;
+  padding:0.5% 2.5% ;
+  cursor:pointer;
+  color:rgba(0,0,0,.4);
+  transition:all ease-in-out .2s;
+  border-bottom:2px solid transparent;
+  
+}
+.active{
+ background: #38b200;
+ border-radius: 8px;
+  color:rgb(255, 255, 255);
+}
