@@ -177,8 +177,3 @@ button {
   color: rgb(255, 255, 255);
 }
 /* =====================menu bg ============== */
-.menuBg{
-  height: 1000px;
-  background-image: url("assets/images/menu-image/frame.jpg");
-  background-size: cover;
-}
