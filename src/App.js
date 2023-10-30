@@ -11,7 +11,7 @@ import FixedMenu from "./pages/fixed-menu";
 import Contactss from "./pages/contact";
 function App() {
   return (
-    <>
+    < >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

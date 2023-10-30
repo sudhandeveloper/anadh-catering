@@ -1,3 +1,4 @@
+
 html body {
   overflow-x: hidden;
 }
@@ -145,7 +146,7 @@ html body {
 .tabs {
   font-family: "Cormorant Infant", serif;
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   text-align: center;
 }
 
@@ -156,14 +157,18 @@ html body {
 button {
   margin-right: 15px;
   font-size: 20px;
-  background: transparent;
   border: none;
   outline: none;
   padding: 0.5% 2.5%;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
   transition: all ease-in-out 0.2s;
   border-bottom: 2px solid transparent;
+  font-weight: bolder;
+  background-color: rgb(239, 238, 238);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-transform: uppercase;
 }
 .active {
   background: #38b200;

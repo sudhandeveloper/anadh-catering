@@ -19,10 +19,10 @@ const Contact = () => {
             <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-              <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
+              <h2 className="text-[38px] font-medium italic font-cormantThiner text-white ">
                 CATERING SERVICES
               </h2>
-              <h2 className="text-[65px] font-semibold font-Barlow text-white ">
+              <h2 className="text-[65px] font-semibold font-cormantThiner text-white ">
                 ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
@@ -47,10 +47,10 @@ const Contact = () => {
               </li>
             </ul>
 
-            <h2 className="text-[42px]  font-MontserratMedium ">
+            <h2 className="text-[42px] font-cormantThiner  ">
               Our Achievements
             </h2>
-            <p className="mt-5 text-justify text-black  text-[18px] font-Heeb">
+            <p className="mt-5 text-justify text-black  text-[18px] font-cormantThiner">
               We keep promises and deliver on-time as per commitments. Every
               project we undertake is unique and we bring holistic satisfaction
               to our esteemed clients. Our maximum is to create captivating
@@ -58,9 +58,9 @@ const Contact = () => {
               unique, elegant, made of superior quality and full of luxury.
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
-              <button className="text-white uppercase font-cormantThiner">
-                Contact Us
-              </button>
+              <div className="text-white uppercase font-cormantThiner">
+               <h2 className="mt-1">Contact Us </h2> 
+              </div>
               <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>
           </div>

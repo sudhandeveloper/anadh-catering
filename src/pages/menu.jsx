@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import Menu from "../assets/images/menu-image/menu-images.jpg";
-import Menus from "../components/menus-component/menu-compo/menu";
+import Menus from "../components/menus-component/menu-compo/menu-compo";
 const menu = () => {
   return (
-  <>
-  <section>
+    <>
+      <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
             className="object-cover w-full h-full"
@@ -30,20 +30,43 @@ const menu = () => {
       </section>
       {/* ====================================== */}
       <section>
-        <h2 className='text-center mt-10 text-[30px] font-cormantThiner text-green-700'>DELICIOUS MENUS OF ANANDTHAM CATERING</h2>
+        <h2 className="text-center mt-20 text-[30px] font-cormantThiner text-green-700">
+          DELICIOUS MENUS OF ANANDTHAM CATERING
+        </h2>
+        <center>
+          <div className="mt-5 mb-10 h-[2px] bg-green-700 w-96"></div>
+        </center>
+        <p className="px-16 max-md:px-6 mb-20 font-cormantThiner text-center text-[22px] mt-5">
+          We are proud to offer a catering service that features a wide range of
+          food menus. Whether you’re planning a small, intimate gathering or a
+          large event, we have the perfect menu for you. Our chefs are experts
+          in preparing delicious dishes that will satisfy all tastes.
+          <br />
+          <br />
+          No matter what type of event you’re hosting, we have the perfect menu
+          for you. From breakfast and lunch menus to dinner menus and dessert
+          buffets, we have something for everyone. We also offer specialty menus
+          for themed events.
+          <br />
+          <br />
+          Our catering service is reliable and affordable, and our staff is
+          dedicated to ensuring that your event is a success. We will work with
+          you to create a custom menu that meets your needs and budget. Contact
+          Asparagus Catering Unit today to learn more about our catering
+          services.
+        </p>
+     
       </section>
-       {/* ====================================== */}
+      {/* ====================================== */}
       <section>
-<Menus/>
+        <Menus />
       </section>
       {/* ===================================== */}
       <section>
-        <div>
-
-        </div>
+        <div></div>
       </section>
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default menu
+export default menu;

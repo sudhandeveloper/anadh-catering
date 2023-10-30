@@ -58,9 +58,9 @@ const NavOne = () => {
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="mt-[10px] max-sm:hidden">
-                  <button className="px-5 pt-2 pb-1 font-serif text-white uppercase bg-green-600 rounded-md ">
+                  <div className="px-5 pt-2 pb-1 font-serif text-white uppercase bg-green-600 rounded-md ">
                     <span>Contact us</span>
-                  </button>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -106,28 +106,7 @@ const NavOne = () => {
                       <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
                     </h2>
                   </div>
-{/* servicedropdownitem */}
-                  {/* <div className="absolute z-20 hidden max-md:static w-80 top-5">
-                    <div className="py-3 pl-2 pr-2 mt-8 bg-white rounded-md shadow-xl max-md:mt-2 innerserviceitem ">
-                      <ul>
-                        <li className="pb-2 header-line he border-b-[1px] border-b-gray-100">
-                          <Link to={"Home-interiories"}> Home Interiors </Link>
-                        </li>
 
-                        <li className="pb-2 header-line he pt-2 border-b-[1px] border-b-gray-100">
-                          <Link to={"Commercial-interior"}>
-                            Commercisal Interios{" "}
-                          </Link>
-                        </li>
-
-                        <li className="pt-2 he border-b-[1px] border-b-gray-100">
-                          <Link to={"Corporate-interior"}>
-                            Corporate Office Intereriors{" "}
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div> */}
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"Menu"}>Menu </Link>

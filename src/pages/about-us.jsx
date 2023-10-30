@@ -19,10 +19,10 @@ const Abouts = () => {
             <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
             <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-              <h2 className="text-[38px] font-medium italic font-Barlow text-white ">
+              <h2 className="text-[38px] font-medium italic font-cormantThiner text-white ">
                 CATERING SERVICES
               </h2>
-              <h2 className="text-[60px] font-medium font-Heeb max-lg:text-[50px] text-white ">
+              <h2 className="text-[60px] font-medium font-cormantThiner max-lg:text-[50px] text-white ">
                 ABOUT ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
@@ -54,7 +54,7 @@ const Abouts = () => {
                   THE EXCELLENCE SINCE IT IS 25 YEARS
                 </h2>
                 <div className="w-full mt-5 border-t-2 border-b-2">
-                  <p className="my-10 ">
+                  <p className="my-10 font-cormantThiner text-[20px]">
                     "Harvest has catered to the personal expressions of clients
                     with excellence and flair for 25 years. Hard work and
                     dedication contributes to the success of Harvest."
@@ -65,7 +65,6 @@ const Abouts = () => {
           </div>
         </section>
 
-   
         {/* ============================================= */}
         <section>
           <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
@@ -81,7 +80,7 @@ const Abouts = () => {
               <h2 className="text-[65px] text-center max-sm:text-[40px] font-semibold font-GreatVibes tracking-widest text-[#c69204]">
                 Customizable Menu
               </h2>
-              <p className="mt-5 text-white text-center  font-Heeb tracking-wider text-[25px] max-md:text-[20px]">
+              <p className="mt-5 text-white text-center  font-cormantThiner tracking-wider text-[25px] max-md:text-[20px]">
                 WE STRIVE TO DELIVER HIGH CLASS SERVICE AND CREATIVITY ON EVERY
                 LEVEL WITH CONSISTENT PROFESSIONALISM. FROM HIGH QUALITY FOOD TO
                 UNIQUE CONCEPTS, OUR GOAL IS TO COMPLEMENT AND EXCEED THE VISION
@@ -98,10 +97,10 @@ const Abouts = () => {
             </div>
           </div>
         </section>
-             {/* ============================================= */}
-             <section>
+        {/* ============================================= */}
+        <section>
           <div className="flex h-auto px-20 max-lg:px-6 max-lg:flex-col ">
-          <div className="h-auto max-lg:w-[100%]  w-[50%]  pt-10">
+            <div className="h-auto max-lg:w-[100%]  w-[50%]  pt-10">
               <center>
                 {" "}
                 <img
@@ -118,7 +117,7 @@ const Abouts = () => {
                 </h2>
                 <h2 className="text-[20px]">ALWAYS FRESH INGREDIENTS</h2>
                 <div className="w-full h-auto mt-5 border-t-2 border-b-2">
-                  <p className="my-10 font-Heeb">
+                  <p className="my-10 font-cormantThiner text-[18px]">
                     Harvest explore all avenues of catering services to serve
                     our guests. With devoted professionals, we organize all
                     types of functions including weddings, anniversaries,
@@ -136,7 +135,6 @@ const Abouts = () => {
                 </div>
               </center>
             </div>
-        
           </div>
         </section>
         {/* ================================================== */}
@@ -147,11 +145,11 @@ const Abouts = () => {
             </div>
             <div>
               <div className="mt-20 ">
-                <h2 className=" text-[30px] font-MontserratMedium">
+                <h2 className=" text-[30px] font-cormantThiner">
                   Discuss Your Needs With Us
                 </h2>
                 <div className="w-96 h-[2px] max-lg:w-auto bg-[#f39a12]  mb-2"></div>
-                <p className="font-Heeb text-[18px] mt-5 max-md:pb-10">
+                <p className="font-cormantThiner text-[20px] mt-5 max-md:pb-10">
                   Looking for a catering service that understands your unique
                   needs? Look no further than Discuss Your Needs With Us. We
                   tailor our services to you

@@ -30,7 +30,7 @@ const Home = () => {
     autoplaySpeed: 2000,
     dots: true,
     infinite: true,
-   
+
     slidesToShow: 1,
     slidesToScroll: 1,
 
@@ -100,7 +100,7 @@ const Home = () => {
                     <h2 className="text-white text-[50px] font-bold">
                       DELICIOUS MEMORIES
                     </h2>
-                    <p className="text-white font-Heeb text-[18px] pb-16">
+                    <p className="text-white font-cormantThiner px-8 text-[18px] mt-5 uppercase font-extrabold pb-16">
                       Cater-Inc strives to produce innovative culinary art,
                       creating memorable experiences through inspired cuisine
                       and impeccable service.
@@ -120,11 +120,11 @@ const Home = () => {
             <h2 className="font-GreatVibes text-[60px] text-[#c69204] text-center mt-10">
               Cater-Inc
             </h2>
-            <p className="px-10 font-serif text-center text-gray-700">
+            <p className="px-10 text-[20px] font-cormantThiner text-center text-black font-extrabold">
               A CATERING EXPERIENCE LIKE NO OTHER, CATER-INC OFFERS A BOLD &
               REFRESHING TAKE ON TRADITIONAL CUISINE.
             </p>
-            <p className="px-24 mt-5 text-center font-Heeb max-lg:px-10 max-sm:px-5">
+            <p className="px-16 mt-5 text-center font-cormantThiner font-extrabold text-[19px] max-lg:px-10 max-sm:px-5">
               We are the finest corporate caterers in Mumbai that deliver
               memories with excellent food quality and immaculate services to
               bring new innovative standards in the catering world. The company
@@ -214,7 +214,7 @@ const Home = () => {
           <h2 className="text-[55px] text-[#c69204] mb-5 font-GreatVibes text-center ">
             Why Choose Us
           </h2>
-          <p className="px-16 mb-10 text-center font-Heeb">
+          <p className="px-16 mb-10 text-center font-cormantThiner text-[22px] font-extrabold">
             With over 30 years of excellence in delightful catering services.
             Gupta Caterers is one of the best caterers in Kolkata for your
             occasions. We cater to all types of events like weddings, corporates
@@ -264,13 +264,13 @@ const Home = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-Barlow text-white ">
+            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-cormantThiner text-white ">
               Your Wish Is Our Command
             </h2>
-            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
+            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-cormantThiner text-white ">
               Customizable Menu
             </h2>
-            <p className="mt-5 text-white font-Heeb">
+            <p className="mt-5 text-white font-cormantThiner text-[20px text-[20px]">
               Being the best catering service Kolkata, we kno that every person
               has a different pallete when it comes to food. If you have a
               special event planned out and are struggling to find the right
@@ -285,7 +285,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* =========================================================== */}
+      {/* ======================== Galary =================================== */}
       <section>
         <div className="">
           <div className="flex px-16">
@@ -361,10 +361,10 @@ const Home = () => {
               </li>
             </ul>
 
-            <h2 className="text-[42px]  font-MontserratMedium ">
+            <h2 className="text-[42px]  font-cormantThiner ">
               Our Achievements
             </h2>
-            <p className="mt-5 text-justify text-black  text-[18px] font-Heeb">
+            <p className="mt-5 text-justify text-black font-extrabold text-[18px] font-cormantThiner">
               We keep promises and deliver on-time as per commitments. Every
               project we undertake is unique and we bring holistic satisfaction
               to our esteemed clients. Our maximum is to create captivating
@@ -372,9 +372,13 @@ const Home = () => {
               unique, elegant, made of superior quality and full of luxury.
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
-              <button className="text-white uppercase font-cormantThiner">
-                Contact Us
-              </button>
+              <div className="text-white uppercase font-cormantThiner">
+                <h2
+                  className="mt-1"
+                >
+                  Contact us
+                </h2>
+              </div>
               <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>
           </div>
@@ -429,9 +433,7 @@ const Home = () => {
 
       {/* ==================== choose wide varity of options=========================== */}
       <section>
-        <div
-          className="relative max-md:h-[670px] h-[550px] max-sm:h-[700px]  mb-10"
-        >
+        <div className="relative max-md:h-[670px] h-[550px] max-sm:h-[700px]  mb-10">
           <img
             className="object-cover w-full h-full"
             src={Imagess}
@@ -441,13 +443,13 @@ const Home = () => {
           <div className="absolute top-0 w-full h-full px-16 py-10 Contact-banner"></div>
 
           <div className="absolute top-0 z-10 w-full h-auto px-16 pt-20 max-sm:px-3">
-            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-Barlow text-white ">
+            <h2 className="text-[38px] max-sm:text-[25px] font-medium italic font-cormantThiner text-white ">
               Choose From A Wide Range
             </h2>
-            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-Barlow text-white ">
+            <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-cormantThiner text-white ">
               Get A Variety Of Menu Options​
             </h2>
-            <p className="mt-5 text-white font-Heeb">
+            <p className="mt-5 text-white text-[20px] font-cormantThiner">
               When it comes to catering your event, we have you covered. We have
               a wide variety of menu options to choose from, so you can find the
               perfect fit for your event. And our experienced staff will take
