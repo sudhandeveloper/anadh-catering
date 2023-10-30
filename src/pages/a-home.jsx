@@ -254,7 +254,7 @@ const Home = () => {
       {/* ==============  Customize menu =============================== */}
 
       <section>
-        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
+        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[700px] mt-10 mb-10">
           <img
             className="object-cover w-full h-full"
             src={MenuBaground}
@@ -373,11 +373,7 @@ const Home = () => {
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
-                <h2
-                  className="mt-1"
-                >
-                  Contact us
-                </h2>
+                <h2 className="mt-1">Contact us</h2>
               </div>
               <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>

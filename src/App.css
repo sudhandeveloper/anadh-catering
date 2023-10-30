@@ -148,6 +148,7 @@ html body {
   margin: 0 auto;
   width: 90%;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .tab-buttons {
@@ -174,4 +175,10 @@ button {
   background: #38b200;
   border-radius: 8px;
   color: rgb(255, 255, 255);
+}
+/* =====================menu bg ============== */
+.menuBg{
+  height: 1000px;
+  background-image: url("assets/images/menu-image/frame.jpg");
+  background-size: cover;
 }
