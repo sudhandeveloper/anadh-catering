@@ -23,6 +23,8 @@ import ImageThree from "../assets/images/home-images/why-choos-us-images/image-t
 import ImageFour from "../assets/images/home-images/why-choos-us-images/image-four.png";
 import Imagess from "../assets/images/home-images/The Republic _ 2017.jpeg";
 import MenuBaground from "../assets/images/home-images/bg-menu.jpg";
+
+import Email from "../components/email";
 const Home = () => {
   const setingOne = {
     autoplay: true,
@@ -507,7 +509,7 @@ const Home = () => {
                         <p>
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
-                        <p className="text-[18px] max-md:text-[20px] font-Heeb text-black font-cormantThiner text-justify">
+                        <p className="text-[18px] max-md:text-[20px]  text-black font-cormantThiner text-justify">
                           Indo decor is a luxury interior designer who’s
                           passionate about creating environments that reflect
                           the unique personalities of her clients. She founded
@@ -559,7 +561,7 @@ const Home = () => {
                         <p>
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
-                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner font-Heeb text-justify">
+                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner  text-justify">
                           Indo decor is a luxury interior designer who’s
                           passionate about creating environments that reflect
                           the unique personalities of her clients. She founded
@@ -579,6 +581,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+<Email/>
       </section>
     </>
   );
