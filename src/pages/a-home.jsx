@@ -61,7 +61,7 @@ const Home = () => {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="absolute  flex h-auto pt-1 top-[18.4rem] max-md:top-5 -left-7 max-sm:left-0">
+      <div className="absolute  flex h-auto pt-1 top-[15rem] max-md:top-5 left-5 max-sm:left-0">
         <button onClick={onClick}>
           <h2 className="">
             <MdArrowBackIosNew className="text-black text-[30px]" />
@@ -75,7 +75,7 @@ const Home = () => {
     const { style, onClick } = props;
     return (
       <div
-        className="absolute  max-md:top-5 flex h-auto pt-1 top-[18.4rem]   max-md:left-10 -right-7"
+        className="absolute  w-[20px] max-md:top-5 flex h-auto pt-1 top-[15rem]   max-md:left-10 right-4"
         style={{ ...style }}
       >
         <button onClick={onClick}>
@@ -371,7 +371,7 @@ const Home = () => {
               interior design experiences for home and workplace that are
               unique, elegant, made of superior quality and full of luxury.
             </p>
-            <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
+            <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
                 <h2 className="mt-1">Contact us</h2>
               </div>

@@ -18,7 +18,7 @@ const Fixedmenu = () => {
             <h2 className="text-[38px] font-cormantThiner font-medium italic font-Barlow text-white ">
               CATERING SERVICES
             </h2>
-            <h2 className="text-[55px] font-semibold font-cormantThiner max-lg:text-[50px] text-white ">
+            <h2 className="text-[55px] max-sm:text-[40px] font-semibold font-cormantThiner max-lg:text-[50px] text-white ">
               FIXED MENUS OF ANANDTHAM CATERING
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
@@ -34,7 +34,7 @@ const Fixedmenu = () => {
           DELICIOUS FIXED MENUS OF ANANDTHAM CATERING
         </h2>
         <center>
-          <div className="mt-5 mb-10 h-[2px] bg-green-700 w-96"></div>
+          <div className="mt-5 mb-10 h-[2px] bg-green-700 w-96 max-sm:w-auto"></div>
         </center>
         <p className="px-16 max-md:px-6 mb-20 font-cormantThiner text-center text-[22px] mt-5">
           We are proud to offer a catering service that features a wide range of

@@ -67,7 +67,7 @@ const Abouts = () => {
 
         {/* ============================================= */}
         <section>
-          <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[500px] mt-10 mb-10">
+          <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[600px] mt-10 mb-10">
             <img
               className="object-cover w-full h-full"
               src={Healthy}

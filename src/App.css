@@ -34,7 +34,16 @@ html body {
     height: 900px;
   }
 }
-
+@media (max-width: 450.98px) {
+  .footer-banner {
+    height: 1000px;
+  }
+}
+@media (max-width: 400.98px) {
+  .footer-banner {
+    height: 1100px;
+  }
+}
 .header-line {
   background: linear-gradient(to right, #1cd400 0%, #363636 100%);
   background-repeat: no-repeat;

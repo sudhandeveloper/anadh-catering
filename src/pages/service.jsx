@@ -43,7 +43,7 @@ const Service = () => {
       </section>
       {/* ============================================== */}
       <section>
-        <div className="px-16 ">
+        <div className="px-16 max-sm:px-6">
           {" "}
           <h2 className="text-green-700  mt-10 text-[50px] font-cormantfive uppercase mb-5 tracking-normal ">
             About Anandtham Catering
@@ -68,7 +68,7 @@ const Service = () => {
       </section>
       {/* ============================================== */}
       <section>
-        <div className="px-16 ">
+        <div className="px-16 max-sm:px-6">
           {" "}
           <h2 className="text-green-700  mt-10 text-[50px] font-cormantfive uppercase mb-5 tracking-normal ">
             Why us?

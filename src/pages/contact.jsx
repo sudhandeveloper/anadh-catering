@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <section>
         <section>
-          <div className="relative h-96 max-md:h-[500px]">
+          <div className="relative h-[430px] max-md:h-[500px] w-full">
             <img
               className="object-cover w-full h-full"
               src={Contacts}
@@ -22,7 +22,7 @@ const Contact = () => {
               <h2 className="text-[38px] font-medium italic font-cormantThiner text-white ">
                 CATERING SERVICES
               </h2>
-              <h2 className="text-[65px] font-semibold font-cormantThiner text-white ">
+              <h2 className="text-[65px] max-sm:text-[45px] font-semibold font-cormantThiner text-white ">
                 ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
@@ -57,7 +57,7 @@ const Contact = () => {
               interior design experiences for home and workplace that are
               unique, elegant, made of superior quality and full of luxury.
             </p>
-            <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700  mt-10 flex justify-evenly">
+            <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[50%] mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
                <h2 className="mt-1">Contact Us </h2> 
               </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
               </li>
 
-              <li className="pt-10">
+              <li className="pt-10 max-sm:hidden">
                 <div className="h-[30px] w-[2px] bg-gray-400"></div>
               </li>
 
@@ -95,8 +95,8 @@ const Contact = () => {
                 </div>
               </li>
 
-              <li className="pt-10">
-                <div className="h-[30px] w-[2px] bg-gray-400"></div>
+              <li className="pt-10 max-sm:hidden">
+                <div className="h-[30px] w-[2px]  bg-gray-400"></div>
               </li>
 
               <li>
