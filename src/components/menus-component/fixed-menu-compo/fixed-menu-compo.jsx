@@ -3,168 +3,110 @@ import React, { useState } from "react";
 const FixedMenu = () => {
   return (
     <div className="tabs">
-    
       <Tabs>
         <Tab label="Beverages" className="font-cormantThiner uppercase">
+          <div>{/* Your content for the 'Beverages' tab */}</div>
+        </Tab>
+
+        <Tab label="Salads">
           <div>
-            {/* Your content for the 'Beverages' tab */}
+            <table></table>
           </div>
         </Tab>
 
-
-        <Tab label="Salads">
-       <div>
-        <table>
-          
-        </table>
-       </div>
-        </Tab>
-
-        <Tab label="Indian Sweets
-">
+        <Tab
+          label="Indian Sweets
+"
+        >
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        <Tab label="Soup
-">
+        <Tab
+          label="Soup
+"
+        >
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="Starters">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="Delhi Chaat">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="Gravy">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="Breads">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-             
         <Tab label="Chinese">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="Around the world">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-               
         <Tab label="Rice">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="South Indian Lunch">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
         <Tab label="South Indian Tiffen">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        
         <Tab label="Fruits,Desserts,Ice Creams and Much More">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-            
         <Tab label="Mouth Fresh">
           <div>
-            <img
-              className="imagesss"
-              src=""
-              alt="Tab 2"
-            />
+            <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
@@ -212,7 +154,11 @@ const TabButtons = ({ buttons, changeTab, activeTab }) => {
 };
 
 const Tab = (props) => {
-  return <React.Fragment className={props.className}>{props.children}</React.Fragment>;
+  return (
+    <React.Fragment className={props.className}>
+      {props.children}
+    </React.Fragment>
+  );
 };
 
 export default FixedMenu;
