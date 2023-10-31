@@ -1,7 +1,4 @@
 import React from "react";
-import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
 
 import Mutton from "../assets/images/service-images/mutton-biriyani.webp";
 import Dsash from "../assets/images/home-images/dash.png";
