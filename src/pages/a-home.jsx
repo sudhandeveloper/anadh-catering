@@ -582,7 +582,7 @@ const Home = () => {
           </div>
         </section>
 
-<Email/>
+        <Email />
       </section>
     </>
   );

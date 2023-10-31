@@ -1,9 +1,7 @@
 import React from "react";
 import Contacts from "../assets/images/contact-image/Contact-image.jpg";
 import { BsArrowRight } from "react-icons/bs";
-import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import Forms from "../components/email";
 const Contact = () => {
   return (
     <>
@@ -113,81 +111,7 @@ const Contact = () => {
         </div>
       </section>
         {/* =============== Contact-us =================== */}
-        <section>
-          <div className="flex max-lg:flex-col  px-16 max-md:px-6 bg-[#28282B] py-10">
-            <div className="w-[50%]  max-md:text-center items-center max-lg:w-full max-md:mb-10">
-              <h2 className="uppercase  text-[24px] text-green-700 italic">
-                Contact Now
-              </h2>
-              <h2 className="mt-5 text-[30px] max-md:text-[30px] text-white font-semibold">
-                For Any Inquiries Please Call
-              </h2>
-              <h2 className="mt-4 text-[25px]  text-green-700 ">
-                +91 866 722 3919
-              </h2>
-
-              <div className="w-48 h-[2px] mt-5 max-lg:w-full bg-white rounded-full"></div>
-
-              <div className="w-full mt-10 max-sm:px-10">
-                <ul className="flex w-full gap-5 max-sm:justify-between">
-                  <li className="w-10 h-10 pt-[8px]  bg-green-700  rounded-full">
-                    <center>
-                      <BiLogoFacebook className="text-[25px] text-white" />
-                    </center>
-                  </li>
-                  <li className="w-10 h-10 pt-[8px]  bg-green-700  text-white rounded-full">
-                    <center>
-                      <AiOutlineTwitter className="text-[25px]" />
-                    </center>
-                  </li>
-                  <li className="w-10 h-10 pt-[8px] bg-green-700  text-white rounded-full">
-                    <center>
-                      <AiOutlineInstagram className="text-[25px]" />
-                    </center>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* ============= */}
-            <div className="p-5 w-[60%] max-lg:w-full max-lg:mt-10">
-              <h2 className="text-center text-[25px] mb-5  text-green-700 italic ">
-                Contact Form
-              </h2>
-              <form
-                action="
-                "
-              >
-                <input
-                  type="text"
-                  className=" w-[100%] py-2 pl-2"
-                  placeholder="Name"
-                />
-                <input
-                  type="text"
-                  className="mt-5 w-[100%] py-2 pl-2 mb-5"
-                  placeholder="Gmail.com"
-                />
-                <div>
-                  <h2 className="mb-2 mt-5 text-white font-RobatoCondesed text-[18px] tracking-wider">
-                    Message
-                  </h2>
-                  <textarea
-                    name="message"
-                    id="message"
-                    cols="30"
-                    placeholder="Message Here"
-                    rows="5"
-                    className="pt-3 pl-3 w-full border-[1px] border-gray-600 "
-                  ></textarea>
-                  <button className="w-auto px-5 py-1 mt-5 font-medium text-white uppercase bg-green-700  font-Barlow">
-                    Submite
-                  </button>
-                </div>{" "}
-              </form>
-            </div>
-            <div></div>
-          </div>
-        </section>
+      <Forms/>
       </section>
     </>
   );
