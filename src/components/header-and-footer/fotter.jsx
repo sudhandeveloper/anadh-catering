@@ -6,6 +6,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png";
 import { FaLocationDot } from "react-icons/fa6";
 
+import Upupup from "../move-to-top-btn";
 // import Footerbg from "../../assets/images/home/footerbg.webp";
 // bg-[#00677f]
 const Footer = () => {
@@ -16,21 +17,10 @@ const Footer = () => {
         <footer className="px-10 divide-y w-[100%] absolute top-0 text-white ">
           <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
-              {/* <span className="self-center text-2xl font-semibold">
-                <span className="text-green-600 font-Heeb">ANANDTHAM </span>
-                CATERING SERVICES
-              </span>
-              <div className="w-[85%] h-[3px] bg-green-500 "></div>
-              <div>
-                <p className="text-white  pr-8 font-Heeb w-[100%] text-justify mt-5 ">
-                  A legacy of vegetarian food catering services that brings to
-                  you traditional and modern cuisines,under the rich expertise
-                  of master cooks, to make your every event memorable. We cater
-                  to personal and corporate events of all sizes.
-                </p>
-              </div> */}
-              <center> <img className="h-56" src={AnanthamLogo} alt="loading" /> </center>
-             
+              <center>
+                {" "}
+                <img className="h-56" src={AnanthamLogo} alt="loading" />{" "}
+              </center>
             </div>
             <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
               <div className="space-y-3    ">
@@ -175,7 +165,9 @@ const Footer = () => {
             © 1968 Company Co. All rights reserved.
           </div>
         </footer>
+       
       </section>
+      <Upupup/>
       {/* ========================== */}
     </>
   );
