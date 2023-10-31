@@ -188,7 +188,7 @@ button {
 /* =====================menu bg ============== */
 /* ScrollComponent.css */
 
-.scroll {
+.scroll {z-index: 2;
   cursor: pointer;
   width: 60px;
   height: 60px;
