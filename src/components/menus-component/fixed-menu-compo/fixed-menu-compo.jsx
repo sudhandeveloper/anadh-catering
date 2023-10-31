@@ -4,76 +4,56 @@ const FixedMenu = () => {
   return (
     <div className="tabs">
       <Tabs>
-        <Tab label="Beverages" className="font-cormantThiner uppercase">
+        <Tab label="Breakfast Menu1" className="font-cormantThiner uppercase">
           <div>{/* Your content for the 'Beverages' tab */}</div>
         </Tab>
 
-        <Tab label="Salads">
+        <Tab label="Breakfast Menu2">
           <div>
             <table></table>
           </div>
         </Tab>
 
         <Tab
-          label="Indian Sweets
+          label="Breakfast Menu3
 "
         >
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+         
         </Tab>
 
         <Tab
           label="Soup
 "
         >
+       
+        </Tab>
+
+        <Tab label="Breakfast Menu4">
           <div>
             <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        <Tab label="Starters">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Lunch Menu1">
+     
         </Tab>
 
-        <Tab label="Delhi Chaat">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Lunch Menu2">
+       
         </Tab>
 
-        <Tab label="Gravy">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Lunch Menu3">
+
         </Tab>
 
-        <Tab label="Breads">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Lunch Menu4
+">
+     
         </Tab>
 
-        <Tab label="Chinese">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
-        </Tab>
-
-        <Tab label="Around the world">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Lunch Menu6">
+        
         </Tab>
 
         <Tab label="Rice">
@@ -83,32 +63,46 @@ const FixedMenu = () => {
           </div>
         </Tab>
 
-        <Tab label="South Indian Lunch">
+        <Tab label="Lunch Menu7">
           <div>
             <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        <Tab label="South Indian Tiffen">
+        <Tab label="Dinner Menu1">
           <div>
             <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        <Tab label="Fruits,Desserts,Ice Creams and Much More">
+        <Tab label="Dinner Menu2">
           <div>
             <img className="imagesss" src="" alt="Tab 2" />
             <p>Tab 2 content</p>
           </div>
         </Tab>
 
-        <Tab label="Mouth Fresh">
-          <div>
-            <img className="imagesss" src="" alt="Tab 2" />
-            <p>Tab 2 content</p>
-          </div>
+        <Tab label="Dinner Menu3">
+     
+        </Tab>
+
+        
+        <Tab label="Dinner Menu4">
+     
+        </Tab>
+        
+        <Tab label="Dinner Menu5">
+     
+        </Tab>
+        
+        <Tab label="Dinner Menu6">
+     
+        </Tab>
+        
+        <Tab label="Dinner Menu7">
+     
         </Tab>
         {/* Other Tab components */}
       </Tabs>
