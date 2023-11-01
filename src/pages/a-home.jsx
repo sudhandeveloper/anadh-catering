@@ -33,6 +33,7 @@ import Galleryimagesix from "../assets/images/Gallary-images/image-seven.jpeg";
 import Galleryimageseven from "../assets/images/Gallary-images/Mutton-grevy.jpg";
 import GalleryimageEight from "../assets/images/Gallary-images/chiken gravey.jpg";
 import Email from "../components/email";
+import { Link } from "react-router-dom";
 const Home = () => {
   const setingOne = {
     autoplay: true,
@@ -353,6 +354,18 @@ const Home = () => {
                 />
               </div>
             </div>
+
+            <center>
+        
+        <Link to={""}>  <div className="lg:w-[15%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
+
+<div className="text-white uppercase font-cormantThiner">
+  <h2 className="mt-1">Gallery</h2>
+</div>
+<BsArrowRight className="font-bold text-[35px] text-white " />
+</div> </Link>
+            
+            </center>
           </section>
         </div>
       </section>

@@ -7,7 +7,7 @@ import Aboutus from "./pages/about-us";
 import Services from "./pages/service";
 import Menu from "./pages/menu";
 import FixedMenu from "./pages/fixed-menu";
-
+import Gallary from "./pages/gallary";
 import Contactss from "./pages/contact";
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Route path="/Menu" element={<Menu />} />
         <Route path="/FixedMenu" element={<FixedMenu />} />
         <Route path="/Contact" element={<Contactss />} />
+        <Route path="/Gallary" element={<Gallary />} />
       </Routes>
       <Footer />
     </>
