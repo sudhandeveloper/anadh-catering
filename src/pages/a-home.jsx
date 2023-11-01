@@ -24,6 +24,14 @@ import ImageFour from "../assets/images/home-images/why-choos-us-images/image-fo
 import Imagess from "../assets/images/home-images/The Republic _ 2017.jpeg";
 import MenuBaground from "../assets/images/home-images/bg-menu.jpg";
 
+import GalleryimageOne from "../assets/images/Gallary-images/Image-two.jpg";
+import GalleryimageTwo from "../assets/images/Gallary-images/image-three.jpg";
+import GalleryimageThree from "../assets/images/Gallary-images/image-four.webp";
+import GalleryimageFour from "../assets/images/Gallary-images/image-five.webp";
+import GalleryimageFive from "../assets/images/Gallary-images/image-six.webp";
+import Galleryimagesix from "../assets/images/Gallary-images/image-seven.jpeg";
+import Galleryimageseven from "../assets/images/Gallary-images/Mutton-grevy.jpg";
+import GalleryimageEight from "../assets/images/Gallary-images/chiken gravey.jpg";
 import Email from "../components/email";
 const Home = () => {
   const setingOne = {
@@ -287,7 +295,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* ======================== Galary =================================== */}
+      {/* ======================== Gallary =================================== */}
       <section>
         <div className="">
           <div className="flex px-16">
@@ -306,42 +314,42 @@ const Home = () => {
                 <img
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
                   alt="loading"
-                  src="https://source.unsplash.com/random/300x300/?1"
+                  src={GalleryimageOne}
                 />
                 <img
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
                   alt="loading"
-                  src="https://source.unsplash.com/random/300x300/?2"
+                  src={GalleryimageTwo}
                 />
                 <img
                   alt="loading"
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
-                  src="https://source.unsplash.com/random/300x300/?3"
+                  src={GalleryimageThree}
                 />
                 <img
                   alt="loading"
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
-                  src="https://source.unsplash.com/random/300x300/?4"
+                  src={GalleryimageFour}
                 />
                 <img
                   alt="loading"
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
-                  src="https://source.unsplash.com/random/300x300/?1"
+                  src={GalleryimageFive}
                 />
                 <img
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
                   alt="loading"
-                  src="https://source.unsplash.com/random/300x300/?2"
+                  src={Galleryimagesix}
                 />
                 <img
                   alt="loading"
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
-                  src="https://source.unsplash.com/random/300x300/?3"
+                  src={Galleryimageseven}
                 />
                 <img
                   alt="loading"
                   className="object-cover w-full dark:bg-gray-500 aspect-square"
-                  src="https://source.unsplash.com/random/300x300/?4"
+                  src={GalleryimageEight}
                 />
               </div>
             </div>

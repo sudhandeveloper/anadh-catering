@@ -1025,32 +1025,29 @@ const Menu = () => {
                       </ul>
                     </div>
 
-
                     <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
                       <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Rasam
+                        Uttapam
                       </h2>
                       <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Tomato Rasam</li>
-                        <li>Dhal Rasam</li>
-                        <li>Paneer Rasam</li>
-                        <li>Pepper Rasam</li>
-                        <li>Kollu Rasam</li>
-                        <li>Pineapple Rasam</li>
+                        <li>Uttapam</li>
+                        <li>Mini Uttapam</li>
+                        <li>Vegetable Uttapam</li>
+                        <li>Podi Uttapam</li>
+                        <li>Onion Uttapam</li>
+                        <li>Masala Uttapam</li>
                       </ul>
                     </div>
 
                     <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
                       <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Poriyal
+                        Sevai
                       </h2>
                       <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Carrot Poriyal</li>
-                        <li>Beans Poriyal</li>
-                        <li>Avarakkai Poriyal</li>
-                        <li>Kovakkai Poriyal</li>
-                        <li>Cabbage Poriyal</li>
-                        <li>Mixed Veg Poriyal</li>
+                        <li>Lemon Sevai</li>
+                        <li>Butter Sevai</li>
+                        <li>Onion Sevai</li>
+                        <li>Vegetable Sevai</li>
                       </ul>
                     </div>
 
@@ -1059,93 +1056,50 @@ const Menu = () => {
                         Kootu
                       </h2>
                       <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Pumpkin</li>
-                        <li>Pudalangai</li>
-                        <li>Merakai</li>
-                        <li>Senai Kizhangu</li>
-                        <li>Sorakkai</li>
+                        Lemon Sevai Butter Sevai Onion Sevai Vegetable Sevai
                       </ul>
                     </div>
 
                     <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
                       <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Chops
+                        Upma
                       </h2>
                       <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Curry Palakkai</li>
-                        <li>Potato</li>
-                        <li>Senai Kizhangu</li>
-                        <li>Vazhakai</li>
+                        <li>Wheat Upma</li>
+                        <li>Rava Upma</li>
+                        <li>Broken Rice Upma</li>
+                        <li>Millet Upma</li>
+                        <li>Sago Upma</li>
+                        <li>Arisi Upma</li>
+                        <li>Pori Upma</li>
                       </ul>
                     </div>
 
                     <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
                       <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Vadai
+                        Sides
                       </h2>
                       <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Keera Vadai</li>
-                        <li>Masal Vadai</li>
-                        <li>Tayir Vadai</li>
-                        <li>Thatta Payir</li>
-                        <li>Senai Kizhangu</li>
-                      </ul>
-                    </div>
-
-                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
-                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Payasam
-                      </h2>
-                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Appalam</li>
-                        <li>Vadagam</li>
-                        <li>Chips</li>
-                        <li>Pappadam</li>
-                      </ul>
-                    </div>
-
-                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
-                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Curd
-                      </h2>
-                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Pot Curd</li>
-                        <li>Cup Curd</li>
-                        <li>Loose Curd</li>
-                      </ul>
-                    </div>
-
-                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
-                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Pickles
-                      </h2>
-                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Mango</li>
-                        <li>Inji Puli</li>
-                        <li>Maa Inji Thokku</li>
-                      </ul>
-                    </div>
-
-                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
-                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Banana
-                      </h2>
-                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Virupachi</li>
-                        <li>Moris</li>
-                        <li>Rasthali</li>
-                        <li>Karpura Valli</li>
-                        <li>Poovan</li>
-                      </ul>
-                    </div>
-
-                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
-                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
-                        Beeda
-                      </h2>
-                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
-                        <li>Plain Beeda</li>
-                        <li>Special Beeda</li>
+                        <li>Idly Podi</li>
+                        <li>Sambar</li>
+                        <li>Coconut Chutney</li>
+                        <li>Coriander Chutney</li>
+                        <li>Beetroot Chutney</li>
+                        <li>Groundnut Chutney</li>
+                        <li>Mint Chutney</li>
+                        <li>Chili Chutney</li>
+                        <li>Onion Chutney</li>
+                        <li>Tomato Chutney</li>
+                        <li>Peerkangai Chutney</li>
+                        <li>Tomato Onion Sabji</li>
+                        <li>Tomato Brinjal Kadaisal</li>
+                        <li>Thakkali Kuzhambu</li>
+                        <li>Poondu Kuzhambu</li>
+                        <li>Mushroom Kuzhambu</li>
+                        <li>Soya Kuzhambu</li>
+                        <li>Saiva Meen Kuzhambu</li>
+                        <li>Cauliflower Kuzhambu</li>
+                        <li>Kadalai Kuzhambu</li>
                       </ul>
                     </div>
                   </div>
@@ -1156,15 +1110,166 @@ const Menu = () => {
 
           <Tab label="Fruits,Desserts,Ice Creams and Much More">
             <div>
-              <img className="imagesss" src="" alt="Tab 2" />
-              <p>Tab 2 content</p>
+              <section className="py-6 ">
+                <div className="container flex flex-col  p-4 mx-auto">
+                  <div className="flex">
+                    <div className="h-10 mr-5 w-[7px] mt-2 bg-green-700 "></div>
+                    <div> </div>
+                    <h1 className="text-start uppercase text-[40px] mb-5 text-green-800 font-extrabold">
+                      OUR FANTASTIC Fruits,Desserts,Ice Creams and Much More
+                    </h1>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 sm:grid-cols-2">
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Fresh Cut Fruits (Imported / Local Fruits)</li>
+                        <li>Cotton Candy</li>
+                        <li>Chocolate Fountain</li>
+                        <li>Popcorn</li>
+                        <li>Fresh Cream Pastries</li>
+                        <li>Butter Cream Pastries</li>
+                        <li>Banana Walnut Cake</li>
+                        <li>Carrot Cake</li>
+                        <li>Fruit Truffle</li>
+                        <li>Choco Lava Cake</li>
+                        <li>Apple Pie</li>
+                        <li>Cheese Cake</li>
+                        <li>Classic Walnut Brownie</li>
+                      </ul>
+                    </div>
+
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Panna Cotta
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Pineapple Pudding</li>
+                        <li>Apple Pudding</li>
+                        <li>Mango Pudding</li>
+                      </ul>
+
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Pudding
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Strawberry</li>
+                        <li>Blueberry</li>
+                        <li>Coffee</li>
+                        <li>Pineapple</li>
+                        <li>Mango</li>
+                      </ul>
+                    </div>
+
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Mousse
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Chocolate Mousse</li>
+                        <li>Kiwi Mousse</li>
+                        <li>Litchi Mousse</li>
+                        <li>Hazelnut Mousse</li>
+                        <li>Chocolate Banana Mousse</li>
+                        <li>Choco Mocha Marquise</li>
+                        <li>Mango Mousse</li>
+                        <li>Fresh Strawberry Mousse</li>
+                        <li>Pineapple Mousse</li>
+                      </ul>
+                    </div>
+
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Mousse
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Chocolate Mousse</li>
+                        <li>Kiwi Mousse</li>
+                        <li>Litchi Mousse</li>
+                        <li>Hazelnut Mousse</li>
+                        <li>Chocolate Banana Mousse</li>
+                        <li>Choco Mocha Marquise</li>
+                        <li>Mango Mousse</li>
+                        <li>Fresh Strawberry Mousse</li>
+                        <li>Pineapple Mousse</li>
+                      </ul>
+
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Soufflé
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Tender Coconut Soufflé</li>
+                        <li>Cold Chocolate Soufflé</li>
+                      </ul>
+                    </div>
+
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Ice Cream
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Vanilla</li>
+                        <li>Strawberry</li>
+                        <li>Chocolate</li>
+                        <li>Pista</li>
+                        <li>Butterscotch</li>
+                        <li>Mango</li>
+                        <li>Litchi</li>
+                        <li>TuttiFrutti</li>
+                        <li>Paan</li>
+                        <li>Kulfi</li>
+                        <li>Pot Kulfi</li>
+                        <li>Jigarthanda</li>
+                      </ul>
+
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Ice Cream Toppings
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>Hot Chocolate Sauce</li>
+                        <li>Tutti Frutti</li>
+                        <li>Choco Chips</li>
+                        <li>Jams</li>
+                        <li>Jelly</li>
+                        <li>Rainbow</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
           </Tab>
 
           <Tab label="Mouth Fresh">
             <div>
-              <img className="imagesss" src="" alt="Tab 2" />
-              <p>Tab 2 content</p>
+              <section className="py-6 ">
+                <div className="container flex flex-col  p-4 mx-auto">
+                  <div className="flex">
+                    <div className="h-10 mr-5 w-[7px] mt-2 bg-green-700 "></div>
+                    <div> </div>
+                    <h1 className="text-start uppercase text-[40px] mb-5 text-green-800 font-extrabold">
+                      OUR FANTASTIC MOUTH FRESH
+                    </h1>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 sm:grid-cols-2">
+                    <div className="border-[7px] border-green-700 shadow-md pl-5 pb-5 text-start shadow-gray-600 rounded-md">
+                      <h2 className="text-green-700 mt-5 font-cormantThiner   uppercase text-[25px] font-extrabold ">
+                        Mouth Fresh
+                      </h2>
+                      <ul className="text-[20px] font-extrabold list-decimal pl-5 mt-5">
+                        <li>South Indian Beeda</li>
+                        <li>Ice Beeda</li>
+                        <li>Maghai Paan</li>
+                        <li>Calcutta Meetha Paan</li>
+                        <li>Calcutta Sada Paan</li>
+                        <li>Chocolate Paan</li>
+                        <li>Mukhwas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
           </Tab>
           {/* Other Tab components */}
