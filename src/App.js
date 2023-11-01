@@ -11,7 +11,7 @@ import Gallary from "./pages/gallary";
 import Contactss from "./pages/contact";
 function App() {
   return (
-    < >
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

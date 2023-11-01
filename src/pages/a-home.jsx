@@ -300,10 +300,10 @@ const Home = () => {
       <section>
         <div className="">
           <div className="flex px-16">
-            {" "}
+           
             <div className=" h-[3px] w-[50%] mt-10 max-sm:hidden bg-black "></div>{" "}
             <h2 className="text-center w-[40%] max-sm:w-full text-[#c69204]  text-[60px]  font-GreatVibes ">
-              {" "}
+             
               Gallary
             </h2>{" "}
             <div className="w-[50%] h-[3px] mt-10  bg-black max-sm:hidden "></div>
@@ -356,15 +356,15 @@ const Home = () => {
             </div>
 
             <center>
-        
-        <Link to={""}>  <div className="lg:w-[15%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
-
-<div className="text-white uppercase font-cormantThiner">
-  <h2 className="mt-1">Gallery</h2>
-</div>
-<BsArrowRight className="font-bold text-[35px] text-white " />
-</div> </Link>
-            
+              <Link to={"Gallary"}>
+               
+                <div className="lg:w-[15%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
+                  <div className="text-white uppercase font-cormantThiner">
+                    <h2 className="mt-1">Gallery</h2>
+                  </div>
+                  <BsArrowRight className="font-bold text-[35px] text-white " />
+                </div>{" "}
+              </Link>
             </center>
           </section>
         </div>
