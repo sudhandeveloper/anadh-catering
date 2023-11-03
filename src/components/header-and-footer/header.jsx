@@ -46,20 +46,22 @@ const NavOne = () => {
             <div className="w-[80%] max-md:hidden">
               <ul className="flex justify-end gap-3 pr-10 sm:pb-2 max-sm:gap-0 max-sm:flex ">
                 <li className="pt-4 pl-2 max-sm:w-full max-sm:text-center">
-                  +91 7558 999 111
+                  <a href="tel:+919943106789">+919943106789</a>
                 </li>
                 <li className="pt-5">
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="pt-4 tracking-wider max-sm:text-center max-sm:w-[100%] max-sm:pb-3 ">
-                  marketing@d2rinteriors.com
+                  <a href="mailto:anandhamcatering@gmail.com">
+                    anandhamcatering@gmail.com
+                  </a>
                 </li>
                 <li className="pt-5">
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="mt-[10px] max-sm:hidden">
                   <div className="px-5 pt-2 pb-1 font-serif text-white uppercase bg-green-600 rounded-md ">
-                    <span>Contact us</span>
+                    <Link to={"Contact"}>Contact us </Link>
                   </div>
                 </li>
               </ul>
@@ -96,17 +98,17 @@ const NavOne = () => {
                   <Link to={"/"}>Home</Link>
                 </li>
                 <li className="max-md:pt-3 header-line he max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
-                  <Link to="about-us"> About Us</Link>
+                  <Link to="about"> About Us</Link>
                 </li>
                 <li className="header-line relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <div className="flex ">
-                    {" "}
-                    <span className="he"><Link to={"Service"}>Services </Link>  </span>
+                    <span className="he">
+                      <Link to={"Service"}>Services </Link>{" "}
+                    </span>
                     <h2 className="hidden">
                       <IoMdArrowDropdown className="ml-2 text-[18px] mt-[3px]" />
                     </h2>
                   </div>
-
                 </li>
                 <li className="he header-line max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"Menu"}>Menu </Link>

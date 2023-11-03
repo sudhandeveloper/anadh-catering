@@ -3,6 +3,7 @@ import BannerImage from "../assets/images/home-images/aboutus-image.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Helmet } from "react-helmet";
 
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIosNew } from "react-icons/md";
@@ -72,7 +73,7 @@ const Home = () => {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="absolute  flex h-auto pt-1 top-[15rem] max-md:top-5 left-5 max-sm:left-0">
+      <div className="absolute z-40 flex h-auto pt-1 top-[15rem] max-md:top-5 left-5 max-sm:left-0">
         <button onClick={onClick}>
           <h2 className="">
             <MdArrowBackIosNew className="text-black text-[30px]" />
@@ -99,6 +100,15 @@ const Home = () => {
   }
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Coimbatore Catering Services from Anantham catering</title>
+        <meta
+          name="description"
+          content="Welcome to Anantham Catering Services in Coimbatore. We are the best catering service provider for weddings, corporate events, and special occasions. Experience the finest cuisine and impeccable hospitality."
+        />
+        <link rel="canonical" href="https://inddecoreinteriors.com/home" />
+      </Helmet>
       <section>
         <div className="w-full relative h-[50%] banner-image ">
           <div className="absolute top-0 w-full h-full bg-black -z-0 opacity-40"></div>
@@ -131,27 +141,30 @@ const Home = () => {
             <h2 className="font-GreatVibes text-[60px] text-[#c69204] text-center mt-10">
               Cater-Inc
             </h2>
-            <p className="px-10 text-[20px] font-cormantThiner text-center text-black font-extrabold">
-              A CATERING EXPERIENCE LIKE NO OTHER, CATER-INC OFFERS A BOLD &
-              REFRESHING TAKE ON TRADITIONAL CUISINE.
+            <p className="px-10 text-[20px] uppercase font-cormantThiner text-center text-black font-extrabold">
+              Anantham Catering Services is Premier for Exquisite Culinary
+              Delights
             </p>
-            <p className="px-16 mt-5 text-center font-cormantThiner font-extrabold text-[19px] max-lg:px-10 max-sm:px-5">
-              We are the finest corporate caterers in Mumbai that deliver
-              memories with excellent food quality and immaculate services to
-              bring new innovative standards in the catering world. The company
-              promises to serve up smiles with their out-of-the-box appetizers,
-              wholesome main dishes and attractive desserts. With our flair for
-              the theatrical, Cater-Inc chefs can tweak the most traditional and
-              boring dishes with a contemporary artistry introducing cuisines
-              that have never been tried before. Serving as one of the top
-              corporate caterers in Mumbai, Cater-Inc specializes in
-              personalized weddings, conventions, galas, corporate events and
-              parties. We have innovated a flawless and professional corporate
-              catering menu that dispels the boring food served under such
-              premises and promises interesting flavor combinations. Cater-Inc
-              is known for being innovative and accommodating and is listed as
-              the best corporate caterers in Mumbai for designing a bespoke menu
-              for your memorable events, whether big or small.
+            <p className="px-6 mt-5 text-center font-cormantThiner font-extrabold text-[19px] max-lg:px-10 max-sm:px-5">
+              Welcome to Anantham Catering Services - Your Culinary Destination
+              for Coimbatore Catering Service. At Anantham Catering Services, we
+              take immense pride in being your go-to catering partner in the
+              vibrant city of Coimbatore. We are passionate about creating
+              unforgettable dining experiences that cater to all your culinary
+              desires. Our commitment to culinary excellence and impeccable
+              service sets us apart as the premier choice for catering services
+              in Coimbatore. Our skilled chefs curate a diverse menu that
+              celebrates the rich tapestry of flavors, from traditional South
+              Indian delicacies to international cuisines, ensuring there's
+              something for everyone. Whether you're planning a grand wedding, a
+              corporate gathering, or an intimate family celebration, we
+              specialize in crafting tailor-made catering solutions to match the
+              unique essence of your occasion. Our culinary team's unwavering
+              dedication to using premium ingredients, innovative cooking
+              techniques, and artful presentation ensures that each dish is a
+              culinary masterpiece. Beyond the delectable cuisine, our team is
+              committed to providing top-notch service, ensuring a seamless and
+              memorable experience for you and your guests from start to finish.
             </p>
           </div>
           <div className="w-[50%] h-auto max-lg:w-full ">
@@ -173,11 +186,7 @@ const Home = () => {
                 headingtwo={"corporate Catering"}
                 Dashimage={Dash}
                 para="
-                            From years, Cater-Inc has been renowned corporate
-                            caterers in Mumbai serving delicious food and
-                            beverages to corporate events with time punctuation,
-                            and most precisely with exquisite and refreshing
-                            menu.
+                We recognize that corporate gatherings require a special touch, and we are committed to delivering exceptional dining experiences that enhance your business meetings and conferences.
                           "
               />
 
@@ -188,10 +197,7 @@ const Home = () => {
                 Dashimage={Dash}
                 para="
                            
-                Crafted with love for perfection, Cater-Inc brings a
-                wide panorama of cuisines which offers the best
-                catering experience and will make your wedding day
-                special.
+                We understand that weddings are a celebration of love and togetherness, and we are dedicated to making your special day extraordinary with exceptional dining experiences.
               
                           "
               />
@@ -203,14 +209,7 @@ const Home = () => {
                 Dashimage={Dash}
                 para="
                            
-               
-                Outdoor events are the perfect gateways to add a
-                unique charm to any occasion. We have an amazing
-                outdoor event catering menu to choose from simple
-                rustic barbecues to high-dining delicacies, you name
-                it.
-              
-              
+                We understand that outdoor gatherings demand a unique touch, and we are passionate about delivering unforgettable dining experiences that elevate your alfresco occasions.                            
                           "
               />
             </Slider>
@@ -226,37 +225,38 @@ const Home = () => {
             Why Choose Us
           </h2>
           <p className="px-16 mb-10 text-center font-cormantThiner text-[22px] font-extrabold">
-            With over 30 years of excellence in delightful catering services.
-            Gupta Caterers is one of the best caterers in Kolkata for your
-            occasions. We cater to all types of events like weddings, corporates
-            parties, private party, cocktails, niche events or more. We all know
-            the importance of the wedding day and everything needs to be
-            flawless. Choosing right from the venue to the menu, everything
-            needs to be precisely done for making the event perfect.
+            At Anantham Catering Services, we understand that choosing the right
+            catering partner is a significant decision, especially when it comes
+            to important events like weddings, corporate gatherings, and outdoor
+            celebrations. Our dedication to crafting exquisite cuisine is at the
+            heart of what we do. We take pride in being your preferred choice
+            for catering services in Coimbatore. Our experienced chefs are
+            passionate about creating dishes that not only tantalize the taste
+            buds but also reflect the beauty and essence of your event.
           </p>
           <div className="grid grid-cols-1 gap-4 pb-10 lg:grid-cols-4 sm:grid-cols-2">
             <WhyChooseUsCompo
               img={ImageOne}
               heading="Fresh Product"
-              para="Our dishes are top-notch when it comes to quality and taste. Our customers are most fond of our foods"
+              para="Fresh products guarantee the highest quality. We work closely with trusted suppliers to ensure that every ingredient used in our dishes meets the highest standards of excellence."
             />
 
             <WhyChooseUsCompo
               img={ImageTwo}
               heading="Trained Waiters"
-              para="Our catering team is well-trained and educated in the field of serving. We can handle the crowd as a breeze"
+              para="Our waiters are well-versed in the art of service. They have the knowledge and expertise to handle various types of events, from formal corporate gatherings to intimate family celebrations."
             />
 
             <WhyChooseUsCompo
               img={ImageThree}
               heading="Satisfied Clients"
-              para="All our customers are 100% satisfied with our catering service. They recommend us to others"
+              para="The success of Anantham Catering Services is best reflected in the satisfaction of our clients. The fresh products used in the dishes made a significant difference in taste."
             />
 
             <WhyChooseUsCompo
               img={ImageFour}
               heading="Flexible & Efficient"
-              para="We understand that our clients often require last-minute changes, like special dietary requirements"
+              para="Whether you're planning an intimate gathering or a large-scale event, our efficient team is equipped to cater to your needs. We scale our services to match your event's size and type."
             />
           </div>
         </div>
@@ -282,12 +282,14 @@ const Home = () => {
               Customizable Menu
             </h2>
             <p className="mt-5 text-white font-cormantThiner text-[20px text-[20px]">
-              Being the best catering service Kolkata, we kno that every person
-              has a different pallete when it comes to food. If you have a
-              special event planned out and are struggling to find the right
-              menu options, we can help. With Asparagus Catering Unit, you can
-              get the opportunity to customise your own menu according to your
-              event theme. You choose and we deliver!
+              Discover the freedom to design your perfect dining experience with
+              our Customizable Menu. We offer a wide range of appetizers, main
+              courses, and desserts that you can mix and match to create a
+              personalized menu that suits your event's theme and your guests'
+              tastes. Choose from an extensive selection of dishes to create a
+              menu that matches your unique preferences. We use only the
+              freshest and finest ingredients to ensure every dish is a
+              masterpiece.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
             <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
@@ -300,10 +302,8 @@ const Home = () => {
       <section>
         <div className="">
           <div className="flex px-16">
-           
             <div className=" h-[3px] w-[50%] mt-10 max-sm:hidden bg-black "></div>{" "}
             <h2 className="text-center w-[40%] max-sm:w-full text-[#c69204]  text-[60px]  font-GreatVibes ">
-             
               Gallary
             </h2>{" "}
             <div className="w-[50%] h-[3px] mt-10  bg-black max-sm:hidden "></div>
@@ -357,7 +357,6 @@ const Home = () => {
 
             <center>
               <Link to={"Gallary"}>
-               
                 <div className="lg:w-[15%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
                   <div className="text-white uppercase font-cormantThiner">
                     <h2 className="mt-1">Gallery</h2>
@@ -370,6 +369,7 @@ const Home = () => {
         </div>
       </section>
       {/* =================== achivements ========================== */}
+
       <section>
         <div className="flex gap-5 px-16 py-20 mt-20 bg-gray-100 max-sm:px-6 max-lg:flex-col">
           <div className="w-[40%] max-lg:w-full">
@@ -388,11 +388,12 @@ const Home = () => {
               Our Achievements
             </h2>
             <p className="mt-5 text-justify text-black font-extrabold text-[18px] font-cormantThiner">
-              We keep promises and deliver on-time as per commitments. Every
-              project we undertake is unique and we bring holistic satisfaction
-              to our esteemed clients. Our maximum is to create captivating
-              interior design experiences for home and workplace that are
-              unique, elegant, made of superior quality and full of luxury.
+              We are proud recipients of the "Culinary Excellence Award" in
+              recognition of our dedication to crafting exceptional dishes and
+              creating unforgettable dining experiences for our clients. Our
+              consistent positive feedback and client testimonials have earned
+              us the "Client Choice Award" for delivering top-notch catering
+              services that exceed expectations.
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
@@ -469,12 +470,14 @@ const Home = () => {
               Get A Variety Of Menu Options​
             </h2>
             <p className="mt-5 text-white text-[20px] font-cormantThiner">
-              When it comes to catering your event, we have you covered. We have
-              a wide variety of menu options to choose from, so you can find the
-              perfect fit for your event. And our experienced staff will take
-              care of everything, from set-up to clean-up, so you can relax and
-              enjoy your special day. Contact us today to learn more about our
-              catering service and see how we can help make your event a success
+              When offering a variety of menu options, it's important to cater
+              to different tastes and preferences. Here's a selection of menu
+              options that Anantham Catering in Coimbatore can consider
+              including in their customizable menu. Appetizer, Main Courses,
+              Side Dishes, Salads and Accompaniments, Desserts, Beverages. This
+              diverse selection of menu options allows customers to mix and
+              match dishes to create a personalized menu that suits their
+              event's theme and their guests' tastes.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
             <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
@@ -531,16 +534,11 @@ const Home = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px]  text-black font-cormantThiner text-justify">
-                          Indo decor is a luxury interior designer who’s
-                          passionate about creating environments that reflect
-                          the unique personalities of her clients. She founded
-                          RDID to bring her bold, eclectic tastes and a high
-                          level of sophistication to Chicago interior design’s
-                          luxury residential and commercial markets. An adept
-                          curator of branded environments, Rae specializes in
-                          ensuring RDID’s commercial design work is flawlessly
-                          integrated and reflects the branding and culture of
-                          her clients.
+                          Anantham Catering Services made our wedding day truly
+                          unforgettable. The food was not just delicious; it was
+                          a work of art. They treated us like royalty with their
+                          meticulous attention to detail and individualized
+                          care.
                         </p>
                       </div>
                     </li>
@@ -583,16 +581,59 @@ const Home = () => {
                           <BiSolidQuoteLeft className="text-[102px] text-green-700" />
                         </p>
                         <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner  text-justify">
-                          Indo decor is a luxury interior designer who’s
-                          passionate about creating environments that reflect
-                          the unique personalities of her clients. She founded
-                          RDID to bring her bold, eclectic tastes and a high
-                          level of sophistication to Chicago interior design’s
-                          luxury residential and commercial markets. An adept
-                          curator of branded environments, Rae specializes in
-                          ensuring RDID’s commercial design work is flawlessly
-                          integrated and reflects the branding and culture of
-                          her clients.
+                          Anantham Catering Services has been our go-to choice
+                          for corporate event catering, and they never
+                          disappoint. Their culinary excellence and
+                          professionalism are unmatched. Our guests are always
+                          impressed, and so are we. We highly recommend their
+                          services for any business gathering.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </center>
+
+                <center className="px-7">
+                  <ul className="flex w-[80%] max-md:w-full gap-5 shadow-xl pb-10 pt-10 shadow-gray-500 max-sm:shadow-lg max-lg:flex-col mb-10 mt-20 justify-evenly ">
+                    <li>
+                      <div className="w-auto h-auto">
+                        <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
+                          <p className="font-cormantThiner">21-9-2023</p>
+                          <p className="font-semibold font-cormantThiner text-[25px]">
+                            Danial
+                          </p>
+
+                          <ul className="flex justify-center ">
+                            <li>
+                              <AiFillStar className="text-green-700 text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-green-700 text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-green-700 text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-green-700 text-[30px]" />
+                            </li>
+                            <li>
+                              <AiFillStar className="text-green-700 text-[30px]" />
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="w-[70%] pr-20 max-lg:px-10 max-lg:w-full">
+                      <div className="w-[100%]">
+                        <p>
+                          <BiSolidQuoteLeft className="text-[102px] text-green-700" />
+                        </p>
+                        <p className="text-[18px] max-md:text-[20px] text-black font-cormantThiner  text-justify">
+                          Our family celebration was made truly memorable by the
+                          exceptional catering services provided by Anantham.
+                          The flavors, the presentation, and the courteous staff
+                          all contributed to a wonderful event. We couldn't have
+                          asked for more. Thank you, Anantham Catering Services.
                         </p>
                       </div>
                     </li>

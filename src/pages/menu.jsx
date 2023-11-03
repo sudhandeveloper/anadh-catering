@@ -1,9 +1,25 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Menu from "../assets/images/menu-image/menu-images.jpg";
 import Menus from "../components/menus-component/menu-compo/menu-compo";
 const menu = () => {
   return (
     <>
+      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          See Our Yummy Menus at Anantham Catering Services in Coimbatore
+        </title>
+        <meta
+          name="description"
+          content="Discover a world of culinary delights with Anantham Catering Services' diverse and customizable menus. From traditional South Indian flavors to global fusion dishes, our menus are designed to elevate your dining experience."
+        />
+        <link
+          rel="canonical"
+          href="https://bestcaterersincoimbatore.com/menu"
+        />
+      </Helmet>
       <section>
         <div className="relative h-96 max-md:h-[500px]">
           <img
@@ -37,33 +53,27 @@ const menu = () => {
           <div className="mt-5 mb-10 h-[2px] bg-green-700 w-96"></div>
         </center>
         <p className="px-16 max-md:px-6 mb-20 font-cormantThiner text-center text-[22px] mt-5">
-          We are proud to offer a catering service that features a wide range of
-          food menus. Whether you’re planning a small, intimate gathering or a
-          large event, we have the perfect menu for you. Our chefs are experts
-          in preparing delicious dishes that will satisfy all tastes.
+          Our menus feature a diverse range of culinary delights, from
+          traditional North Indian cuisine to South fusion dishes, ensuring
+          there's something for everyone. Each menu is fully customizable,
+          allowing you to curate the perfect selection of dishes that align with
+          your event's theme, dietary preferences, and cultural requirements.
           <br />
           <br />
-          No matter what type of event you’re hosting, we have the perfect menu
-          for you. From breakfast and lunch menus to dinner menus and dessert
-          buffets, we have something for everyone. We also offer specialty menus
-          for themed events.
+          Our menus embrace the changing seasons, using fresh, locally sourced
+          ingredients to create dishes that mirror the time of year, infusing a
+          variety of flavors into your dining experience
           <br />
           <br />
-          Our catering service is reliable and affordable, and our staff is
-          dedicated to ensuring that your event is a success. We will work with
-          you to create a custom menu that meets your needs and budget. Contact
-          Asparagus Catering Unit today to learn more about our catering
-          services.
+          We can provide themed menus that align with the nature of your event,
+          adding a special touch to your celebration or gathering. Our
+          experienced team ensures that your event runs seamlessly, from menu
+          planning to on-site cooking, setup, service, and clean-up
         </p>
-     
       </section>
       {/* ====================================== */}
       <section>
         <Menus />
-      </section>
-      {/* ===================================== */}
-      <section>
-        <div></div>
       </section>
     </>
   );

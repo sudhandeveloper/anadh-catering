@@ -7,6 +7,8 @@ import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png
 import { FaLocationDot } from "react-icons/fa6";
 
 import Upupup from "../move-to-top-btn";
+import { Link } from "react-router-dom";
+import Whatsapp from "../../components/watsapp-btn";
 // import Footerbg from "../../assets/images/home/footerbg.webp";
 // bg-[#00677f]
 const Footer = () => {
@@ -18,8 +20,7 @@ const Footer = () => {
           <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div className="lg:w-1/3">
               <center>
-                {" "}
-                <img className="h-56" src={AnanthamLogo} alt="loading" />{" "}
+                <img className="h-56" src={AnanthamLogo} alt="loading" />
               </center>
             </div>
             <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
@@ -28,36 +29,43 @@ const Footer = () => {
                   <h2 className="text-[23px] font-Montserrat  text-white ">
                     QUICK LINK
                   </h2>
-
                   <ul className=" pt-7 font-medium pb-2 text-[15px] text-white  font-Heeb">
                     <li className="flex pb-2 ">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line"> HOME</span>
+                      <span className="header-line">
+                        <Link to={"/"}>HOME</Link>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line"> ABOUT </span>
+                      <span className="header-line">
+                        <Link to={"about"}>ABOUT </Link>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line">SERVICES </span>
+                      <span className="header-line">
+                        <Link to={"Service"}>SERVICES</Link>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line">MENU</span>
+                      <span className="header-line">
+                        <Link to={"Menu"}>MENU</Link>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line">FIXED MENU</span>
+                      <span className="header-line">
+                        <Link to={"FixedMenu"}> FIXED MENU </Link>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-                      <span className="header-line">CONTACT</span>
+                      <span className="header-line">
+                        <Link to={"Contact"}>CONTACT </Link>
+                      </span>
                     </li>
-                    {/* <li className="flex ">
-           <AiOutlineDoubleRight className="mt-1 mr-4 text-green-700" />
-           <span>Privacy policy </span>
-         </li> */}
                   </ul>
                 </div>
               </div>
@@ -106,17 +114,24 @@ const Footer = () => {
                   <ul className="pt-6 text-[16px] font-medium text-white  font-Heeb">
                     <li className="flex pb-2">
                       <BsFillTelephoneForwardFill className="mt-1 mr-4 text-green-700" />
-                      <span className=""> +91 98418 33554</span>
+                      <span className="">
+                        {" "}
+                        <a href="tel:+919442425703">+91 9442425703</a>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <BiLogoGmail className="mt-1 mr-4 text-green-700" />
-                      <span>sales@perilinteriors.com </span>
+                      <span>
+                        <a href="mailto:anandhamcatering@gmail.com">
+                          anandhamcatering@gmail.com
+                        </a>
+                      </span>
                     </li>
                     <li className="flex pb-2">
                       <FaLocationDot className="mt-1 text-[25px] mr-4 text-green-700" />
                       <span className="text-justify">
-                        Medavakkam Branch: No 1/12, Jalladianpet, Ricemill Road,
-                        Medavakkam, Chennai - 600100.{" "}
+                        12, Kailamman Kovil Street,Saibaba Colony, Coimbatre-641
+                        038
                       </span>
                     </li>
                   </ul>
@@ -145,7 +160,7 @@ const Footer = () => {
                       className="w-5 h-5 fill-current"
                     >
                       <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-                    </svg>{" "}
+                    </svg>
                   </div>
                   <div>
                     <svg
@@ -165,9 +180,9 @@ const Footer = () => {
             © 1968 Company Co. All rights reserved.
           </div>
         </footer>
-       
       </section>
-      <Upupup/>
+      <Whatsapp/>
+      <Upupup />
       {/* ========================== */}
     </>
   );

@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import AboutUsBanner from "../assets/images/about-us-images/about-us-image.jpg";
 import Chef from "../assets/images/about-us-images/chef.png";
 import Aboutusimage from "../assets/images/about-us-images/aboutus-menu.png";
@@ -7,6 +9,20 @@ import Healthy from "../assets/images/about-us-images/pasta.jpeg";
 const Abouts = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Anantham Catering Services is the Best Caterers in Coimbatore
+        </title>
+        <meta
+          name="description"
+          content="Discover the story of Anantham Catering Services, founded by Senthilkumar in 2010. We take pride in being among the best caterers in Coimbatore, dedicated to culinary excellence."
+        />
+        <link
+          rel="canonical"
+          href="https://bestcaterersincoimbatore.com/about-us"
+        />
+      </Helmet>
       <section>
         <section>
           <div className="relative h-96 max-md:h-[500px]">
@@ -37,7 +53,6 @@ const Abouts = () => {
           <div className="flex h-auto px-20 max-lg:px-6 max-lg:flex-col AboutusBgImage">
             <div className="h-auto max-lg:w-[100%]  w-[50%] mt-5 ">
               <center>
-                {" "}
                 <img
                   className="object-cover mt-20 h-96 max-md:w-full max-md:object-contain"
                   src={Aboutusimage}
@@ -48,16 +63,19 @@ const Abouts = () => {
             <div className="w-[50%]  max-lg:w-[100%] max-md:pt-0 pt-32">
               <center>
                 <h2 className="text-[40px] font-GreatVibes text-[#c69204]">
-                  Harvest Caterers
+                  Anantham Caterers
                 </h2>
                 <h2 className="text-[20px]">
-                  THE EXCELLENCE SINCE IT IS 25 YEARS
+                  THE EXCELLENCE SINCE IT IS 20+ YEARS
                 </h2>
                 <div className="w-full mt-5 border-t-2 border-b-2">
                   <p className="my-10 font-cormantThiner text-[20px]">
-                    "Harvest has catered to the personal expressions of clients
-                    with excellence and flair for 25 years. Hard work and
-                    dedication contributes to the success of Harvest."
+                    Since our inception in 2010, we have consistently strived to
+                    exceed the expectations of our clients. Over the past
+                    decade, we have established ourselves as one of the best
+                    caterers in Coimbatore, known for our diverse menu options,
+                    innovative flair, and an unyielding commitment to service
+                    excellence.
                   </p>
                 </div>
               </center>
@@ -88,7 +106,6 @@ const Abouts = () => {
               </p>
 
               <center>
-                {" "}
                 <div className="w-20 h-[1px] bg-red-600 mt-10"></div>{" "}
                 <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
                   Hire us
@@ -102,9 +119,8 @@ const Abouts = () => {
           <div className="flex h-auto px-20 max-lg:px-6 max-lg:flex-col ">
             <div className="h-auto max-lg:w-[100%]  w-[50%]  pt-10">
               <center>
-                {" "}
                 <img
-                  className="object-cover mt-20 h-96 max-md:w-full max-md:object-contain"
+                  className="object-cover mt-40 max-lg:mt-5 h-96 max-md:w-full max-md:object-contain"
                   src={ImageTwo}
                   alt="loading"
                 />{" "}
@@ -115,22 +131,26 @@ const Abouts = () => {
                 <h2 className="text-[40px] font-GreatVibes text-[#c69204]">
                   What we do
                 </h2>
-                <h2 className="text-[20px]">ALWAYS FRESH INGREDIENTS</h2>
+                <h2 className="text-[20px]">Diverse Event Expertise</h2>
                 <div className="w-full h-auto mt-5 border-t-2 border-b-2">
                   <p className="my-10 font-cormantThiner text-[18px]">
-                    Harvest explore all avenues of catering services to serve
-                    our guests. With devoted professionals, we organize all
-                    types of functions including weddings, anniversaries,
-                    corporate events, get together, birthday parties,
-                    celebration of life services and any other types of small
-                    and grand events.
+                    Our journey in the catering industry has been marked by
+                    successful collaborations with clients across a wide
+                    spectrum of events, including weddings, corporate
+                    gatherings, family celebrations, and more. Our versatility,
+                    adaptability, and innovative approach have contributed to
+                    our status as the best caterers in Coimbatore.
                     <br />
                     <br />
-                    Harvest specialises in high class catering services in
-                    Kerala state. Memories are created in breaking bread with
-                    others. We create formal and informal meal plans, complete
-                    with the decorations, cutlery, crockery and other items to
-                    make it experience flow easily.
+                    Our team of trained waiters plays a pivotal role in ensuring
+                    that your event unfolds seamlessly. They are attentive,
+                    professional, and dedicated to making your event stress-free
+                    and enjoyable. Our commitment to using fresh, locally
+                    sourced ingredients ensures that every dish reflects the
+                    beauty of nature and offers superior taste and nutritional
+                    value. What We Do is not just about catering; it's about
+                    creating memorable moments, capturing the essence of your
+                    event, and celebrating the love of delicious food.
                   </p>
                 </div>
               </center>
@@ -150,9 +170,10 @@ const Abouts = () => {
                 </h2>
                 <div className="w-96 h-[2px] max-lg:w-auto bg-[#f39a12]  mb-2"></div>
                 <p className="font-cormantThiner text-[20px] mt-5 max-md:pb-10">
-                  Looking for a catering service that understands your unique
-                  needs? Look no further than Discuss Your Needs With Us. We
-                  tailor our services to you
+                  We believe in offering personalized service that starts with
+                  understanding your needs. Your event is an opportunity to
+                  bring your culinary vision to life, and we're here to make it
+                  a reality.
                 </p>
               </div>
             </div>

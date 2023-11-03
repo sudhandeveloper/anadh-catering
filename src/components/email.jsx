@@ -9,8 +9,8 @@ const SendEmailForm = () => {
     const [message, setMessage] = useState('');
     const [submitted, setSubmitted] = useState(false);
   
-    const emailAddress = 'gmsudhan3@gmail.com'; // Replace with the recipient's email address
-    const subject = 'New message from your website'; // Change the email subject as needed
+    const emailAddress = 'anandhamcatering@gmail.com'; // Replace with the recipient's email address
+    const subject = 'New message from your website Anandtham'; // Change the email subject as needed
   
     useEffect(() => {
       if (submitted && name !== '' && phone !== '' && message !== '') {
@@ -38,7 +38,7 @@ const SendEmailForm = () => {
               For Any Inquiries Please Call
             </h2>
             <h2 className="mt-4 text-[25px]  text-green-700 ">
-              +91 866 722 3919
+            <a href="tel:+919943106789">+919943106789</a>
             </h2>
 
             <div className="w-48 h-[2px] mt-5 max-lg:w-full bg-white rounded-full"></div>

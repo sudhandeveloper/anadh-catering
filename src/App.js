@@ -9,18 +9,72 @@ import Menu from "./pages/menu";
 import FixedMenu from "./pages/fixed-menu";
 import Gallary from "./pages/gallary";
 import Contactss from "./pages/contact";
+import ScrollToTop from "./components/scroll-to-top";
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<Aboutus />} />
-        <Route path="/Service" element={<Services />} />
-        <Route path="/Menu" element={<Menu />} />
-        <Route path="/FixedMenu" element={<FixedMenu />} />
-        <Route path="/Contact" element={<Contactss />} />
-        <Route path="/Gallary" element={<Gallary />} />
+        <Route
+          path="/"
+          element={
+            <>
+              {" "}
+             <Home />  <ScrollToTop />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <ScrollToTop /> <Aboutus />
+            </>
+          }
+        />
+        <Route
+          path="/Service"
+          element={
+            <>
+              <ScrollToTop />
+              <Services />
+            </>
+          }
+        />
+        <Route
+          path="/Menu"
+          element={
+            <>
+              <ScrollToTop /> <Menu />
+            </>
+          }
+        />
+        <Route
+          path="/FixedMenu"
+          element={
+            <>
+              <ScrollToTop />
+              <FixedMenu />
+            </>
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <>
+              <ScrollToTop /> <Contactss />
+            </>
+          }
+        />
+        <Route
+          path="/Gallary"
+          element={
+            <>
+              <ScrollToTop />
+              <Gallary />
+            </>
+          }
+        />
       </Routes>
       <Footer />
     </>
