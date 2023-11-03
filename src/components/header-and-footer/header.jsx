@@ -9,7 +9,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { IoMdArrowDropdown } from "react-icons/io";
 
-import AnanthamLogo from "../../assets/images/home-images/anandham-Logo.jpg";
+import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png";
 const NavOne = () => {
   const [drawer, setDrawer] = useState("false");
 
