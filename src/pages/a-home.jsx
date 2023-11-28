@@ -83,6 +83,7 @@ const Home = () => {
     );
   }
 
+
   function SampleNextArrow(props) {
     const { style, onClick } = props;
     return (
@@ -98,6 +99,8 @@ const Home = () => {
       </div>
     );
   }
+
+  
   return (
     <>
       <Helmet>
