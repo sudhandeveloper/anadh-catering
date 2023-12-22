@@ -20,7 +20,7 @@ const NavOne = () => {
 
   return (
     <>
-      <section>
+      <section className="sticky top-0 z-30">
         <div className="h-auto text-white bg-black ">
           <div className="w-[100%] flex justify-end  h-auto ">
             <div className="w-[20%] max-md:w-full bg- max-sm:px-10">
@@ -66,11 +66,12 @@ const NavOne = () => {
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
 
         {/* ------- */}
-        <div className=" h-[70px] max-md:h-auto    shadow-lg ">
+        <div className=" h-[70px] max-md:h-auto bg-white  shadow-lg ">
           <div className="w-full md:pt-3 md:hidden">
             <div
               className=" right-10 absolute top-4 text-right text-[25px] text-white"
@@ -85,14 +86,16 @@ const NavOne = () => {
               drawer ? "max-md:hidden" : "show helo"
             }`}
           >
-            <div className="w-auto h-auto pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3">
-              <img
+            <div className="w-auto h-auto pl-10 max-md:hidden max-lg:pl-2 max-lg:pr-3 bg-white">
+              <Link to={"/"}>       <img
                 className="object-contain h-[70px] "
                 src={AnanthamLogo}
                 alt="loading"
-              />
+              /> </Link>
+       
             </div>
-            <div className="w-full h-full ">
+
+            <div className="w-full h-full sticky top-0 bg-white">
               <ul className="md:pt-6 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-3 text-[16px] text-black uppercase font-serif tracking-wide ">
                 <li className="he header-line one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"/"}>Home</Link>

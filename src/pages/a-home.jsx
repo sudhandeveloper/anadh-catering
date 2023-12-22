@@ -148,7 +148,7 @@ const Home = () => {
               Anantham Catering Services is Premier for Exquisite Culinary
               Delights
             </p>
-            <p className="px-6 mt-5 text-center font-cormantThiner font-extrabold text-[19px] max-lg:px-10 max-sm:px-5">
+            <p className="px-6 mt-5 text-center font-cormantThiner font-extrabold text-[19px] max-lg:px-10 max-sm:px-5 max-lg:text-justify">
               Welcome to Anantham Catering Services - Your Culinary Destination
               for Coimbatore Catering Service. At Anantham Catering Services, we
               take immense pride in being your go-to catering partner in the
@@ -227,7 +227,7 @@ const Home = () => {
           <h2 className="text-[55px] text-[#c69204] mb-5 font-GreatVibes text-center ">
             Why Choose Us
           </h2>
-          <p className="px-16 mb-10 text-center font-cormantThiner text-[22px] font-extrabold">
+          <p className="px-16 mb-10 text-center font-cormantThiner text-[22px] max-md:px-4 max-md:text-justify font-extrabold">
             At Anantham Catering Services, we understand that choosing the right
             catering partner is a significant decision, especially when it comes
             to important events like weddings, corporate gatherings, and outdoor
@@ -268,7 +268,7 @@ const Home = () => {
       {/* ==============  Customize menu =============================== */}
 
       <section>
-        <div className="relative max-md:h-[630px] h-[550px] max-sm:h-[700px] mt-10 mb-10">
+        <div className="relative max-md:h-[700px] text-justify h-[550px] max-sm:h-[700px] mt-10 mb-10">
           <img
             className="object-cover w-full h-full"
             src={MenuBaground}
@@ -295,9 +295,10 @@ const Home = () => {
               masterpiece.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+            <Link to={"Contact"}> <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
-            </button>
+            </button> </Link>
+           
           </div>
         </div>
       </section>
@@ -400,7 +401,7 @@ const Home = () => {
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
-                <h2 className="mt-1">Contact us</h2>
+             <Link to={"Contact"}><h2 className="mt-1">Contact us</h2> </Link>   
               </div>
               <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>
@@ -456,7 +457,7 @@ const Home = () => {
 
       {/* ==================== choose wide varity of options=========================== */}
       <section>
-        <div className="relative max-md:h-[670px] h-[550px] max-sm:h-[700px]  mb-10">
+        <div className="relative max-md:h-[760px] h-[670px]  max-sm:h-[800px]  mb-10">
           <img
             className="object-cover w-full h-full"
             src={Imagess}
@@ -472,9 +473,10 @@ const Home = () => {
             <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-cormantThiner text-white ">
               Get A Variety Of Menu Options​
             </h2>
-            <p className="mt-5 text-white text-[20px] font-cormantThiner">
+            <p className="mt-5 text-white text-[20px] max-md:text-justify font-cormantThiner">
               When offering a variety of menu options, it's important to cater
-              to different tastes and preferences. Here's a selection of menu
+              to different tastes and preferences. Here's a import Contact from './contact';
+selection of menu
               options that Anantham Catering in Coimbatore can consider
               including in their customizable menu. Appetizer, Main Courses,
               Side Dishes, Salads and Accompaniments, Desserts, Beverages. This
@@ -483,9 +485,10 @@ const Home = () => {
               event's theme and their guests' tastes.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+            <Link to={"Menu"}>   <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
-            </button>
+            </button> </Link>
+         
           </div>
         </div>
       </section>
@@ -506,9 +509,9 @@ const Home = () => {
                     <li>
                       <div className="w-auto h-auto">
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
-                          <p className="font-cormantThiner">21-9-2023</p>
+                          <p className="font-cormantThiner">21-7-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                            Danial
+                     Vishwa bahuth 
                           </p>
 
                           <ul className="flex justify-center ">
@@ -553,7 +556,7 @@ const Home = () => {
                     <li>
                       <div className="w-auto h-auto">
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
-                          <p className="font-cormantThiner">21-9-2023</p>
+                          <p className="font-cormantThiner">12-12-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
                             Danial
                           </p>
@@ -601,9 +604,9 @@ const Home = () => {
                     <li>
                       <div className="w-auto h-auto">
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
-                          <p className="font-cormantThiner">21-9-2023</p>
+                          <p className="font-cormantThiner">3-12-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                            Danial
+                         Monisha
                           </p>
 
                           <ul className="flex justify-center ">
