@@ -44,9 +44,10 @@ const Contact = () => {
                 ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
-              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+              <a href="tel:+919943106789">   <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
                 Hire us
-              </button>
+              </button></a>
+           
             </div>
           </div>
         </section>

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Menu from "../assets/images/menu-image/menu-images.jpg";
 import Menus from "../components/menus-component/menu-compo/menu-compo";
+import { Link } from "react-router-dom";
 const menu = () => {
   return (
     <>
@@ -38,9 +39,10 @@ const menu = () => {
               MENUS OF ANANDTHAM CATERING
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+            <Link to={"/Contact"}> <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
-            </button>
+            </button></Link>
+            
           </div>
         </div>
       </section>

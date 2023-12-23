@@ -20,7 +20,7 @@ const NavOne = () => {
 
   return (
     <>
-      <section className="sticky top-0 z-30">
+      <section className="sticky top-0 z-50">
         <div className="h-auto text-white bg-black ">
           <div className="w-[100%] flex justify-end  h-auto ">
             <div className="w-[20%] max-md:w-full bg- max-sm:px-10">
@@ -96,11 +96,11 @@ const NavOne = () => {
             </div>
 
             <div className="w-full h-full sticky top-0 bg-white">
-              <ul className="md:pt-6 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-3 text-[16px] text-black uppercase font-serif tracking-wide ">
+              <ul className="md:pt-6 max-md:pt-3 max-md:flex-col  max-md:pb-5 justify-center  max-lg:pr-10 max-md:pr-0 flex head-ul cursor-default  h-auto md:gap-10 text-[16px] text-black uppercase font-serif tracking-wide ">
                 <li className="he header-line one max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to={"/"}>Home</Link>
                 </li>
-                <li className="max-md:pt-3 header-line he max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
+                <li className="max-md:pt-3 header-line he max-md:pl-5  max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">
                   <Link to="about"> About Us</Link>
                 </li>
                 <li className="header-line relative max-md:h-auto max-md:w-auto servicesmenu max-md:pt-3 max-md:pl-5 max-md:pb-2 max-md:border-b-[1px] max-md:border-b-gray-500">

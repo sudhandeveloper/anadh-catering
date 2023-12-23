@@ -6,6 +6,7 @@ import Chef from "../assets/images/about-us-images/chef.png";
 import Aboutusimage from "../assets/images/about-us-images/aboutus-menu.png";
 import ImageTwo from "../assets/images/about-us-images/our-special.png";
 import Healthy from "../assets/images/about-us-images/pasta.jpeg";
+import { Link } from "react-router-dom";
 const Abouts = () => {
   return (
     <>
@@ -42,9 +43,11 @@ const Abouts = () => {
                 ABOUT ANANDTHAM CATERING
               </h2>
               <div className="w-20 h-[1px] bg-red-600"></div>
-              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
-                Hire us
-              </button>
+              <Link to={"/Contact"}>
+                <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+                  Hire us
+                </button>{" "}
+              </Link>
             </div>
           </div>
         </section>
@@ -107,9 +110,10 @@ const Abouts = () => {
 
               <center>
                 <div className="w-20 h-[1px] bg-red-600 mt-10"></div>{" "}
-                <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+                <Link to={"/Contact"}><button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
                   Hire us
-                </button>{" "}
+                </button> </Link>
+                {" "}
               </center>
             </div>
           </div>

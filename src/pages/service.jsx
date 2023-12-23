@@ -13,6 +13,7 @@ import ImageFive from "../assets/images/service-images/festi-2.png";
 import ImageSix from "../assets/images/service-images/associa.png";
 
 import Forms from "../components/email";
+import { Link } from "react-router-dom";
 const Service = () => {
   return (
     <>
@@ -46,9 +47,10 @@ const Service = () => {
               ANANDTHAM CATERING
             </h2>
             <div className="w-20 h-[1px] bg-red-600"></div>
-            <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+            <Link to={"/Contact"}>    <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
               Hire us
-            </button>
+            </button> </Link>
+        
           </div>
         </div>
       </section>

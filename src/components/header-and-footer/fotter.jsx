@@ -130,8 +130,7 @@ const Footer = () => {
                     <li className="flex pb-2">
                       <FaLocationDot className="mt-1 text-[25px] mr-4 text-green-700" />
                       <span className="text-justify">
-                        12, Kailamman Kovil Street,Saibaba Colony, Coimbatre-641
-                        038
+                        12, Kailamman Kovil Street,Saibaba Colony, Coimbatore-641038
                       </span>
                     </li>
                   </ul>
@@ -177,7 +176,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="py-6 text-sm text-center dark:text-gray-400">
-            © 1968 Company Co. All rights reserved.
+            © 2023 Company Co. All rights reserved.
           </div>
         </footer>
       </section>
