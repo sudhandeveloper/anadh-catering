@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 
 import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
+
 import { AiOutlineInstagram } from "react-icons/ai";
 import { IoMdArrowDropdown } from "react-icons/io";
-
+import { IoCallSharp } from "react-icons/io5";
 import AnanthamLogo from "../../assets/images/home-images/anandtham-bg-black.png";
 const NavOne = () => {
   const [drawer, setDrawer] = useState("false");
@@ -27,17 +27,19 @@ const NavOne = () => {
               <ul className="flex justify-center w-full gap-5 pt-3 cursor-pointer max-md:pb-3 max-md:justify-start">
                 <li className="w-8 h-8 pt-[5px]  rounded-full">
                   <center>
-                    <BiLogoFacebook className="text-[25px] text-white" />
+               <a href="https://www.facebook.com/profile.php?id=100070597942817"> <BiLogoFacebook className="text-[25px] text-white" /></a>    
                   </center>
                 </li>
                 <li className="w-8 h-8 pt-[5px]  text-white rounded-full">
                   <center>
-                    <AiOutlineTwitter className="text-[25px]" />
+                    <a href="tel:+919943106789 "> <IoCallSharp className="text-[25px]  text-white"/></a>
+                 
                   </center>
                 </li>
                 <li className="w-8 h-8 pt-[5px]  text-white rounded-full">
                   <center>
-                    <AiOutlineInstagram className="text-[25px] " />
+                    <a href="https://www.instagram.com/anandham_catering_coimbatore/"> <AiOutlineInstagram className="text-[25px] " /></a>
+                   
                   </center>
                 </li>
               </ul>

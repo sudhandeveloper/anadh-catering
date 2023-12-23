@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { BiLogoFacebook } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { IoCallSharp } from "react-icons/io5";
 import { AiOutlineInstagram } from "react-icons/ai";
 const SendEmailForm = () => {
     const [name, setName] = useState('');
@@ -47,18 +47,18 @@ const SendEmailForm = () => {
               <ul className="flex w-full gap-5 max-sm:justify-between">
                 <li className="w-10 h-10 pt-[8px]  bg-green-700  rounded-full">
                   <center>
-                    <BiLogoFacebook className="text-[25px] text-white" />
+                  <a href="https://www.facebook.com/profile.php?id=100070597942817"> <BiLogoFacebook className="text-[25px] text-white" /></a>  
                   </center>
                 </li>
                 <li className="w-10 h-10 pt-[8px]  bg-green-700  text-white rounded-full">
                   <center>
-                    <AiOutlineTwitter className="text-[25px]" />
-                  </center>
+                  <a href="tel:+919943106789 "> <IoCallSharp className="text-[25px]  text-white"/></a>
+                   </center>
                 </li>
                 <li className="w-10 h-10 pt-[8px] bg-green-700  text-white rounded-full">
                   <center>
-                    <AiOutlineInstagram className="text-[25px]" />
-                  </center>
+                  <a href="https://www.instagram.com/anandham_catering_coimbatore/"> <AiOutlineInstagram className="text-[25px] " /></a>
+                   </center>
                 </li>
               </ul>
             </div>
