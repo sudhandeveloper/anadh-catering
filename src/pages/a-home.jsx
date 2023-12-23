@@ -83,7 +83,6 @@ const Home = () => {
     );
   }
 
-
   function SampleNextArrow(props) {
     const { style, onClick } = props;
     return (
@@ -100,8 +99,6 @@ const Home = () => {
     );
   }
 
-  
-  
   return (
     <>
       <Helmet>
@@ -113,19 +110,20 @@ const Home = () => {
         />
         <link rel="canonical" href="https://inddecoreinteriors.com/home" />
       </Helmet>
+
       <section>
         <div className="w-full relative h-[50%] banner-image ">
           <div className="absolute top-0 w-full h-full bg-black -z-0 opacity-40"></div>
           <div className="absolute top-0 w-full h-full pt-28">
             <center>
-              <div class="styled px-16 max-sm:px-5">
+              <div class="styled sm:px-16 max-sm:px-2">
                 <fieldset>
                   <legend className="">Creating</legend>
                   <div>
                     <h2 className="text-white text-[50px] font-bold">
                       DELICIOUS MEMORIES
                     </h2>
-                    <p className="text-white font-cormantThiner px-8 text-[18px] mt-5 uppercase font-extrabold pb-16">
+                    <p className="text-white font-cormantThiner sm:px-8 text-[18px] max-sm:text-[15px] mt-5 uppercase font-extrabold pb-16">
                       Cater-Inc strives to produce innovative culinary art,
                       creating memorable experiences through inspired cuisine
                       and impeccable service.
@@ -225,10 +223,10 @@ const Home = () => {
 
       <section className="py-6 ">
         <div className="container flex flex-col justify-center p-4 mx-auto">
-          <h2 className="text-[55px] text-[#c69204] mb-5 font-GreatVibes text-center ">
+          <h2 className="text-[55px] max-sm:text-[30px] text-[#c69204] mb-5 font-GreatVibes text-center ">
             Why Choose Us
           </h2>
-          <p className="px-16 mb-10 text-center font-cormantThiner text-[22px] max-md:px-4 max-md:text-justify font-extrabold">
+          <p className="px-16 mb-10 text-center font-cormantThiner max-sm:text-[15px] text-[22px] max-md:px-2 max-md:text-justify font-extrabold">
             At Anantham Catering Services, we understand that choosing the right
             catering partner is a significant decision, especially when it comes
             to important events like weddings, corporate gatherings, and outdoor
@@ -285,7 +283,7 @@ const Home = () => {
             <h2 className="text-[65px] max-sm:text-[40px] font-semibold font-cormantThiner text-white ">
               Customizable Menu
             </h2>
-            <p className="mt-5 text-white font-cormantThiner text-[20px text-[20px]">
+            <p className="mt-5 text-white font-cormantThiner  text-[20px]">
               Discover the freedom to design your perfect dining experience with
               our Customizable Menu. We offer a wide range of appetizers, main
               courses, and desserts that you can mix and match to create a
@@ -296,10 +294,12 @@ const Home = () => {
               masterpiece.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
-            <Link to={"Contact"}> <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
-              Hire us
-            </button> </Link>
-           
+            <Link to={"Contact"}>
+              {" "}
+              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+                Hire us
+              </button>{" "}
+            </Link>
           </div>
         </div>
       </section>
@@ -402,7 +402,9 @@ const Home = () => {
             </p>
             <div className="lg:w-[38%] md:w-[40%] max-md:w-[40%] py-2 bg-green-700 max-sm:w-[60%]  mt-10 flex justify-evenly">
               <div className="text-white uppercase font-cormantThiner">
-             <Link to={"Contact"}><h2 className="mt-1">Contact us</h2> </Link>   
+                <Link to={"Contact"}>
+                  <h2 className="mt-1">Contact us</h2>{" "}
+                </Link>
               </div>
               <BsArrowRight className="font-bold text-[35px] text-white " />
             </div>
@@ -476,20 +478,21 @@ const Home = () => {
             </h2>
             <p className="mt-5 text-white text-[20px] max-md:text-justify font-cormantThiner">
               When offering a variety of menu options, it's important to cater
-              to different tastes and preferences. Here's a import Contact from './contact';
-selection of menu
-              options that Anantham Catering in Coimbatore can consider
-              including in their customizable menu. Appetizer, Main Courses,
-              Side Dishes, Salads and Accompaniments, Desserts, Beverages. This
-              diverse selection of menu options allows customers to mix and
-              match dishes to create a personalized menu that suits their
-              event's theme and their guests' tastes.
+              to different tastes and preferences. Here's a import Contact from
+              './contact'; selection of menu options that Anantham Catering in
+              Coimbatore can consider including in their customizable menu.
+              Appetizer, Main Courses, Side Dishes, Salads and Accompaniments,
+              Desserts, Beverages. This diverse selection of menu options allows
+              customers to mix and match dishes to create a personalized menu
+              that suits their event's theme and their guests' tastes.
             </p>
             <div className="w-20 h-[1px] bg-red-600 mt-10"></div>
-            <Link to={"Menu"}>   <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
-              Hire us
-            </button> </Link>
-         
+            <Link to={"Menu"}>
+              {" "}
+              <button className="w-auto px-5 py-1 mt-5 font-bold text-white uppercase bg-green-700 font-cormantThiner tracking-wider]">
+                Hire us
+              </button>{" "}
+            </Link>
           </div>
         </div>
       </section>
@@ -512,7 +515,7 @@ selection of menu
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
                           <p className="font-cormantThiner">21-7-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                     Vishwa bahuth 
+                            Vishwa bahuth
                           </p>
 
                           <ul className="flex justify-center ">
@@ -607,7 +610,7 @@ selection of menu
                         <div className="px-5 pt-28 max-sm:px-0 max-md:pt-20">
                           <p className="font-cormantThiner">3-12-2023</p>
                           <p className="font-semibold font-cormantThiner text-[25px]">
-                         Monisha
+                            Monisha
                           </p>
 
                           <ul className="flex justify-center ">
