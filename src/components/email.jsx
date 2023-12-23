@@ -63,7 +63,10 @@ const SendEmailForm = () => {
               </ul>
             </div>
           </div>
+
           {/* ============= */}
+
+
           <form
             className="p-5 w-[60%] max-lg:w-full max-lg:mt-10"
             onSubmit={handleFormSubmit}
@@ -117,6 +120,8 @@ const SendEmailForm = () => {
               Send Email
             </button>
           </form>
+
+
           <div></div>
         </div>
       </section>
