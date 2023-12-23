@@ -60,9 +60,11 @@ const NavOne = () => {
                   <div className="w-[1.2px] h-4 max-sm:hidden bg-orange-600"></div>
                 </li>
                 <li className="mt-[10px] max-sm:hidden">
+                <Link to={"/Contact"}>
                   <div className="px-5 pt-2 pb-1 font-serif text-white uppercase bg-green-600 rounded-md ">
-                    <Link to={"Contact"}>Contact us </Link>
+                   Contact us 
                   </div>
+                  </Link>
                 </li>
               </ul>
             </div>
